@@ -1576,7 +1576,7 @@ words = [
         ],
         "category": [
             {
-                "de": "Rechnen"
+                "de": "Computing"
             },
             {
                 "en": "computing"
@@ -1594,7 +1594,7 @@ words = [
         ],
         "category": [
             {
-                "de": "Rechnen"
+                "de": "Computing"
             },
             {
                 "en": "computing"
@@ -1612,7 +1612,7 @@ words = [
         ],
         "category": [
             {
-                "de": "Rechnen"
+                "de": "Computing"
             },
             {
                 "en": "computing"
