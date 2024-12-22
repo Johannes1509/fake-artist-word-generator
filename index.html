@@ -1,95 +1,170 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Word generator for "A fake Artists goes to New York" game</title>
+    <title>Wortgenerator für das Spiel „A fake artists goes to New York“</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="words.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css"/>
 </head>
-<body>
-    <div id="headline">
-        <h1>Word generator</h1>
-        <h3>for "A fake Artists goes to New York" game</h3>
+<body class="h-100">
+    <div class="col-10 m-2 mt-4 ms-auto me-auto text-center">
+        <h3>Wortgenerator für das Spiel<br>"A fake artists goes to New York"</h3>
     </div>
-    <hr>
-    <div>
-        <label for="playerCount">Spieleranzahl:</label>
-        <input type="number" id="playerCount" min="3" value="3">
-        <br>
-        <label for="language">Sprache:</label>
-        <select id="language">
-            <option value="de" selected>Deutsch</option>
-            <option value="en">English</option>
-        </select>
-        <br>
-        <button id="generateGame">Spielrunde generieren</button>
-
-        <div id="gameArea" style="margin-top: 20px; display: none;">
-            <p id="instruction">Reiche das Smartphone zu Spieler 1</p>
-            <p>Wortkategorie: <span id="category"></span></p>
-            <button id="showWord">Wort anzeigen</button>
+    <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto">
+    <div class="p-1 m-2 ms-3 me-3 card bg-white">
+        <div class="card-body">
+            <h5 class="card-title">Dein Setup</h5>
+            <label for="playerCount">Spieleranzahl:</label>
+            <input class="form-control" type="number" id="playerCount" min="3" value="3" placeholder="Anzahl eingeben...">
+            <br>
+            <button type="button" class="mt-0 btn btn-light" id="generateGame">Spielrunde generieren</button>
         </div>
     </div>
-    <div id="center-bottom-message">
-        <p>Unofficial companion app for<br><a href="https://oinkgames.com/de/games/analog/a-fake-artist-goes-to-new-york/">"A fake Artists goes to New York" by Oink Games</a></p>
-        <hr>
-        <p>Made by <a href="https://github.com/Johannes1509">Johannes1509</a> with &#10084;</p>
+    <div class="p-1 m-2 ms-3 me-3 invisible" id="gameArea">
+        <p class="m-0 ms-auto me-auto mb-2 col-12 text-center">&#8595;</p>
+        <div class="card bg-white">
+            <div class="card-body">
+                <h5 class="card-title mb-5">Generierte Spielrunde</h5>
+                <p class="text-center fs-5">
+                    <span id="instruction"></span>
+                        <span id="next-player" class="fw-bold"></span>
+                    <span id="word" class="fw-bold"></span>
+                </p>
+                <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto">
+                <p class="text-center mt-2 fs-6 text-secondary">Wortkategorie der Runde: <span id="category" class="fw-bold"></span></p>
+                <button type="button" class="btn btn-light col-12 mt-4" id="showWord">Wort anzeigen</button>
+            </div>
+        </div>
+    </div>
+    <div id="footer-info" class="text-center fixed-bottom mb-0 d-none">
+        <div class="form-floating ms-auto me-auto col-4 mb-2 p-0 form-control-sm">
+            <select class="form-select" id="language">
+                <option value="de" selected>Deutsch</option>
+                <option value="en">English</option>
+            </select>
+            <label for="language">Sprache</label>
+          </div>
+        <p class="mb-1 small">Inoffizielle Begleit-App für<br><a href="https://oinkgames.com/de/games/analog/a-fake-artist-goes-to-new-york/">"A fake artists goes to New York" von Oink Games</a></p>
+        <hr class="bg-dark opacity-100 border-1 border-dark col-7 mb-2 mt-2 ms-auto me-auto ">
+        <p class="small">Erstellt von <a href="https://github.com/Johannes1509">Johannes1509</a> mit &#10084;</p>
     </div>
 
     <script>
+
+//show fixed bottom only on larger devices
+$(document).ready(function () {
+// Mindesthöhe in Pixeln, die erforderlich ist, damit das Element angezeigt wird
+const minHeight = 850;
+
+if ($(window).height() >= minHeight) {
+    $('#footer-info').removeClass("d-none"); // Element einblenden
+}
+
+// Optional: Dynamisch prüfen, wenn die Fenstergröße geändert wird
+$(window).resize(function () {
+    if ($(window).height() >= minHeight) {
+        $('#footer-info').removeClass("d-none");
+    } else {
+        $('#footer-info').addClass("d-none");
+    }
+});
+});
+
+
+
+
         let currentPlayer = 1;
         let fakePlayer = -1;
         let word = "";
         let category = "";
         let players = 0;
         let language = "de";
+        let gameRunning = false;
 
         $("#generateGame").on("click", function() {
+
+            if(gameRunning == true){
+                if (confirm("Achtung! Aktuell läuft eine Runde. Wenn du bestätigst, generierst du eine neue Runde! Drücke alternativ Abbrechen!") == false) {
+                    return;
+                }
+                endGame();
+            }
+
             players = parseInt($("#playerCount").val());
             language = $("#language").val();
 
-            if (players < 3) {
+            if (players < 3 || isNaN(players)) {
                 alert("Es müssen mindestens 3 Spieler sein.");
                 return;
             }
 
+
             // Reset game state
             currentPlayer = 1;
-            fakePlayer = Math.floor(Math.random() * players) + 1;
+            lastFakePlayer = fakePlayer;
+            generateCount = 0
+            while(lastFakePlayer == fakePlayer || generateCount < 5){
+                fakePlayer = Math.floor(Math.random() * players) + 1;
+                generateCount++;
+            }
+            gameRunning = true;
 
             // Load word from JSON
             const randomIndex = Math.floor(Math.random() * words.length);
             word = words[randomIndex]["word"][language == "de" ? 0 : 1][language];
             category = words[randomIndex]["category"][language == "de" ? 0 : 1][language];
             
-            $("#instruction").text(`Reiche das Smartphone zu Spieler 1`);
+            $("#instruction").text(`Reiche das Smartphone zu Spieler`);
+            $("#next-player").text(`1`);
+            $("#next-player").show();
             $("#showWord").text("Wort anzeigen");
             $("#category").text(category);
-            $("#gameArea").show();
+            $("#gameArea").removeClass("invisible");
         });
 
         $("#showWord").on("click", function() {
             if ($(this).text() === "Wort anzeigen") {
+                $("#next-player").hide();
+                $("#word").removeClass("text-bg-danger");
+                $("#word").addClass("text-bg-light");
+
                 if (currentPlayer === fakePlayer) {
-                    $("#instruction").text("Du bist der Fake-Künstler!");
+                    $("#instruction").text("Du bist der");
+                    $("#word").text("Fake-Künstler!");
+                    $("#word").removeClass("text-bg-light");
+                    $("#word").addClass("text-bg-danger");
                 } else {
-                    $("#instruction").text(`Das Wort ist: ${word}`);
+                    $("#instruction").text(`Das Wort ist:`);
+                    $("#word").text(`${word}`);
                 }
                 $(this).text("Wort verbergen");
             } else {
                 currentPlayer++;
+                $("#word").text(``);
+                $("#next-player").text(``);
 
                 if (currentPlayer > players) {
-                    $("#instruction").text("Das Spiel ist vorbei!");
-                    $("#gameArea").hide();
+                    endGame();
                 } else {
-                    $("#instruction").text(`Reiche das Smartphone zu Spieler ${currentPlayer}`);
+                    $("#instruction").text(`Reiche das Smartphone zu Spieler`);
+                    $("#next-player").show();
+                    $("#next-player").text(`${currentPlayer}`);
                     $(this).text("Wort anzeigen");
                 }
             }
         });
+
+        function endGame(){
+            gameRunning = false;
+            $("#instruction").text("Das Spiel ist vorbei!");
+            $("#gameArea").addClass("invisible");
+            $("#word").text(``);
+            $("#next-player").text(``);
+        }
     </script>
 </body>
 </html>

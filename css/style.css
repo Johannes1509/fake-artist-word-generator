@@ -9,17 +9,6 @@ button {
     margin-top: 10px;
 }
 
-hr {
-    margin: 10px 10%;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ddd;
-}
-
-#headline {
-    text-align: center;
-}
-
 #center-bottom-message {
     width:100%;
     position:fixed;
@@ -28,3 +17,4 @@ hr {
     z-index:9999;
     margin-bottom: 2%;
 }
+
