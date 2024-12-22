@@ -6,25 +6,31 @@
     <title>Fake-Künstler Spiel</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="words.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-    <h1>Word generator for "A fake Artists goes to New York" game</h1>
-    <label for="playerCount">Spieleranzahl:</label>
-    <input type="number" id="playerCount" min="3" value="3">
-    <br>
-    <label for="language">Sprache:</label>
-    <select id="language">
-        <option value="de" selected>Deutsch</option>
-        <option value="en">English</option>
-    </select>
-    <br>
-    <button id="generateGame">Spielrunde generieren</button>
+    <div id="headline">
+        <h1>Word generator</h1>
+        <h3>for "A fake Artists goes to New York" game</h3>
+    </div>
+    <hr>
+    <div>
+        <label for="playerCount">Spieleranzahl:</label>
+        <input type="number" id="playerCount" min="3" value="3">
+        <br>
+        <label for="language">Sprache:</label>
+        <select id="language">
+            <option value="de" selected>Deutsch</option>
+            <option value="en">English</option>
+        </select>
+        <br>
+        <button id="generateGame">Spielrunde generieren</button>
 
-    <div id="gameArea" style="margin-top: 20px; display: none;">
-        <p id="instruction">Reiche das Smartphone zu Spieler 1</p>
-        <p>Wortkategorie: <span id="category"></span></p>
-        <button id="showWord">Wort anzeigen</button>
+        <div id="gameArea" style="margin-top: 20px; display: none;">
+            <p id="instruction">Reiche das Smartphone zu Spieler 1</p>
+            <p>Wortkategorie: <span id="category"></span></p>
+            <button id="showWord">Wort anzeigen</button>
+        </div>
     </div>
     <div id="center-bottom-message">
         <p>Unofficial companion app for<br><a href="https://oinkgames.com/de/games/analog/a-fake-artist-goes-to-new-york/">"A fake Artists goes to New York" by Oink Games</a></p>

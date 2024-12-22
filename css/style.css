@@ -1,7 +1,6 @@
 body {
     font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
 font-weight: normal;
-    background: rgb(252,24,225);
     background: linear-gradient(180deg, rgba(252,24,225,1) 0%, rgba(241,253,29,1) 96%, rgba(252,246,69,1) 100%);
     background-attachment:fixed;
     height:100%;
@@ -15,6 +14,10 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ddd;
+}
+
+#headline {
+    text-align: center;
 }
 
 #center-bottom-message {
