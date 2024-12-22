@@ -2504,42 +2504,6 @@ words = [
     {
         "word": [
             {
-                "de": "Turner"
-            },
-            {
-                "en": "gymnast"
-            }
-        ],
-        "category": [
-            {
-                "de": "Beruf"
-            },
-            {
-                "en": "profession"
-            }
-        ]
-    },
-    {
-        "word": [
-            {
-                "de": "Zauberer"
-            },
-            {
-                "en": "magician"
-            }
-        ],
-        "category": [
-            {
-                "de": "Beruf"
-            },
-            {
-                "en": "profession"
-            }
-        ]
-    },
-    {
-        "word": [
-            {
                 "de": "Briefträger"
             },
             {

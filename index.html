@@ -11,43 +11,47 @@
     <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body class="h-100">
-    <div class="col-10 m-2 mt-4 ms-auto me-auto text-center">
-        <h3>Wortgenerator für das Spiel<br>"A fake artists goes to New York"</h3>
+    <div class="row m-2 mt-3 ms-auto me-auto text-center align-items-center">
+        <div class="col-8">
+            <h5>Wortgenerator für das Spiel "A fake artists goes to New York"</h5>
+        </div>
+        <div class="col-4">
+            <div class="form-floating ms-auto me-auto mb-2 form-control-sm">
+                <select class="form-select" id="language">
+                    <option value="de" selected>DE</option>
+                    <option value="en">EN</option>
+                </select>
+                <label for="language">Sprache</label>
+            </div>
+        </div>
     </div>
-    <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto">
+    <hr class="bg-dark opacity-100 border-1 border-dark col-10 ms-auto me-auto mt-0">
     <div class="p-1 m-2 ms-3 me-3 card bg-white">
         <div class="card-body">
             <h5 class="card-title">Dein Setup</h5>
             <label for="playerCount">Spieleranzahl:</label>
             <input class="form-control" type="number" id="playerCount" min="3" value="3" placeholder="Anzahl eingeben...">
             <br>
-            <button type="button" class="mt-0 btn btn-light" id="generateGame">Spielrunde generieren</button>
+            <button type="button" class="mt-0 col-12 btn btn-light" id="generateGame">Spielrunde generieren</button>
         </div>
     </div>
     <div class="p-1 m-2 ms-3 me-3 invisible" id="gameArea">
         <p class="m-0 ms-auto me-auto mb-2 col-12 text-center">&#8595;</p>
         <div class="card bg-white">
             <div class="card-body">
-                <h5 class="card-title mb-5">Generierte Spielrunde</h5>
-                <p class="text-center fs-5">
+                <h5 class="card-title mb-2">Generierte Spielrunde</h5>
+                <p class="text-center fs-6">
                     <span id="instruction"></span>
                         <span id="next-player" class="fw-bold"></span>
                     <span id="word" class="fw-bold"></span>
                 </p>
                 <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto">
                 <p class="text-center mt-2 fs-6 text-secondary">Wortkategorie der Runde: <span id="category" class="fw-bold"></span></p>
-                <button type="button" class="btn btn-light col-12 mt-4" id="showWord">Wort anzeigen</button>
+                <button type="button" class="btn btn-light col-12 mt-2" id="showWord">Wort anzeigen</button>
             </div>
         </div>
     </div>
     <div id="footer-info" class="text-center fixed-bottom mb-0 d-none">
-        <div class="form-floating ms-auto me-auto col-4 mb-2 p-0 form-control-sm">
-            <select class="form-select" id="language">
-                <option value="de" selected>Deutsch</option>
-                <option value="en">English</option>
-            </select>
-            <label for="language">Sprache</label>
-          </div>
         <p class="mb-1 small">Inoffizielle Begleit-App für<br><a href="https://oinkgames.com/de/games/analog/a-fake-artist-goes-to-new-york/">"A fake artists goes to New York" von Oink Games</a></p>
         <hr class="bg-dark opacity-100 border-1 border-dark col-7 mb-2 mt-2 ms-auto me-auto ">
         <p class="small">Erstellt von <a href="https://github.com/Johannes1509">Johannes1509</a> mit &#10084;</p>
@@ -58,7 +62,7 @@
 //show fixed bottom only on larger devices
 $(document).ready(function () {
 // Mindesthöhe in Pixeln, die erforderlich ist, damit das Element angezeigt wird
-const minHeight = 850;
+const minHeight = 720;
 
 if ($(window).height() >= minHeight) {
     $('#footer-info').removeClass("d-none"); // Element einblenden
