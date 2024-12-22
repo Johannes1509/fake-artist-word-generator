@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake-Künstler Spiel</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="words.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Fake-Künstler Spiel</h1>
+    <label for="playerCount">Spieleranzahl:</label>
+    <input type="number" id="playerCount" min="3" value="3">
+    <br>
+    <label for="language">Sprache:</label>
+    <select id="language">
+        <option value="de" selected>Deutsch</option>
+        <option value="en">English</option>
+    </select>
+    <br>
+    <button id="generateGame">Spielrunde generieren</button>
+
+    <div id="gameArea" style="margin-top: 20px; display: none;">
+        <p id="instruction">Reiche das Smartphone zu Spieler 1</p>
+        <p>Wortkategorie: <span id="category"></span></p>
+        <button id="showWord">Wort anzeigen</button>
+    </div>
+
+    <script>
+        let currentPlayer = 1;
+        let fakePlayer = -1;
+        let word = "";
+        let category = "";
+        let players = 0;
+        let language = "de";
+
+        $("#generateGame").on("click", function() {
+            players = parseInt($("#playerCount").val());
+            language = $("#language").val();
+
+            if (players < 3) {
+                alert("Es müssen mindestens 3 Spieler sein.");
+                return;
+            }
+
+            // Reset game state
+            currentPlayer = 1;
+            fakePlayer = Math.floor(Math.random() * players) + 1;
+
+            // Load word from JSON
+            const randomIndex = Math.floor(Math.random() * words.length);
+            word = words[randomIndex]["word"][language == "de" ? 0 : 1][language];
+            category = words[randomIndex]["category"][language == "de" ? 0 : 1][language];
+            
+            $("#instruction").text(`Reiche das Smartphone zu Spieler 1`);
+            $("#showWord").text("Wort anzeigen");
+            $("#category").text(category);
+            $("#gameArea").show();
+        });
+
+        $("#showWord").on("click", function() {
+            if ($(this).text() === "Wort anzeigen") {
+                if (currentPlayer === fakePlayer) {
+                    $("#instruction").text("Du bist der Fake-Künstler!");
+                } else {
+                    $("#instruction").text(`Das Wort ist: ${word}`);
+                }
+                $(this).text("Wort verbergen");
+            } else {
+                currentPlayer++;
+
+                if (currentPlayer > players) {
+                    $("#instruction").text("Das Spiel ist vorbei!");
+                    $("#gameArea").hide();
+                } else {
+                    $("#instruction").text(`Reiche das Smartphone zu Spieler ${currentPlayer}`);
+                    $(this).text("Wort anzeigen");
+                }
+            }
+        });
+    </script>
+</body>
+</html>
