@@ -4,13 +4,14 @@ var language = i18n.locale;
 i18n.load({
     "de": {
         "page-title": "Fake Artist Wortgenerator",
-        "app-title": "Inoffizieller Wortgenerator für das Spiel \"A fake artists goes to New York\" von Oink Games",
+        "app-title": "Inoffizieller Wortgenerator für das Spiel \"A fake artist goes to New York\" von Oink Games",
         "language-select": "Sprache",
         "game-setup-title": "Dein Setup",
         "game-setup-player-count-title": "Spieleranzahl:",
         "game-setup-player-count-value": "Anzahl eingeben...",
         "game-setup-player-min-alert": "Es müssen mindestens 3 Spieler sein.",
         "game-setup-generate": "Spielrunde generieren",
+        "game-setup-show-word-category": "Wortkategorie für alle Spieler anzeigen",
         "game-title": "Generierte Spielrunde",
         "game-instruction-pass": "Reiche das Smartphone zu Spieler",
         "game-instruction-fake-artist-description": "Du bist der",
@@ -24,17 +25,19 @@ i18n.load({
         "app-imprint": "Impressum",
         "app-icons-by": "von",
         "app-creator-by": "Erstellt von",
-        "app-creator-with": "mit"
+        "app-creator-with": "mit",
+        "app-report-bug": "Fehler melden"
     },
     "en": {
         "page-title": "Fake Artist word generator",
-        "app-title": "Unofficial word generator for the game \"A fake artists goes to New York\" from Oink Games",
+        "app-title": "Unofficial word generator for the game \"A fake artist goes to New York\" from Oink Games",
         "language-select": "Language",
         "game-setup-title": "Your Setup",
         "game-setup-player-count-title": "Player count:",
         "game-setup-player-count-value": "Enter number...",
         "game-setup-player-min-alert": "There must be at least three players.",
         "game-setup-generate": "Generate game",
+        "game-setup-show-word-category": "Display word category to all players",
         "game-title": "Generated game round",
         "game-instruction-pass": "Pass the smartphone to the player",
         "game-instruction-fake-artist-description": "You are the",
@@ -49,6 +52,7 @@ i18n.load({
         "app-icons-by": "by",
         "app-creator-by": "Created by",
         "app-creator-with": "with",
+        "app-report-bug": "Report bugs"
     }
 });
 

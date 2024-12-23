@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Language" content="en,de">
-    <meta name="description" content='Word generator for "A fake artists goes to New York" by Oink Games. Replace the game master for a gaming experience that involves everyone.'>
+    <meta name="description" content='Word generator for "A fake artist goes to New York" by Oink Games. Replace the game master for a gaming experience that involves everyone.'>
     <meta name="robots" content="index, follow">
     <title>Fake Artist word generator</title>
     <link rel="icon" type="image/png" href="favicon.png">
@@ -36,7 +36,7 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="row m-2 mt-3 ms-auto me-auto text-center align-items-center">
         <div class="col-8">
-            <h6 data-i18n="app-title">Unofficial word generator for the game "A fake artists goes to New York" from Oink Games</h6>
+            <h6 data-i18n="app-title">Unofficial word generator for the game "A fake artist goes to New York" from Oink Games</h6>
         </div>
         <div class="col-4">
             <div class="form-floating ms-auto me-auto mb-2 form-control-sm">
@@ -54,8 +54,13 @@
             <h5 class="card-title" data-i18n="game-setup-title">Your Setup</h5>
             <label for="playerCount" data-i18n="game-setup-player-count-title">Player count:</label>
             <input class="form-control" data-i18n="[placeholder]game-setup-player-count-value" type="number" id="playerCount" min="3" value="3" placeholder="Enter number...">
-            <br>
-            <button type="button" class="mt-0 col-12 btn btn-light" data-i18n="game-setup-generate" id="generateGame">Generate game</button>
+            <div class="form-check mt-1">
+                <input class="form-check-input" type="checkbox" value="" id="showWordCategoryCheck" checked>
+                <label class="form-check-label" for="showWordCategoryCheck" data-i18n="game-setup-show-word-category">
+                  Display word category to all players
+                </label>
+              </div>
+            <button type="button" class="mt-3 col-12 btn btn-light" data-i18n="game-setup-generate" id="generateGame">Generate game</button>
         </div>
     </div>
     <div class="p-1 m-2 ms-3 me-3 invisible" id="gameArea">
@@ -68,15 +73,15 @@
                         <span id="next-player" class="fw-bold"></span>
                     <span id="word" class="fw-bold"></span>
                 </p>
-                <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto">
-                <p class="text-center mt-2 fs-6 text-secondary"><span data-i18n="game-word-category-title">Word category of game round:</span> <span id="category" class="fw-bold"></span></p>
+                <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto word-category-visible">
+                <p class="text-center mt-2 fs-6 text-secondary word-category-visible"><span data-i18n="game-word-category-title">Word category of game round:</span> <span id="category" class="fw-bold"></span></p>
                 <button type="button" class="btn btn-light col-12 mt-2" id="showWord">Wort anzeigen</button>
             </div>
         </div>
     </div>
     <div id="footer-info" class="hide-on-shortest text-center fixed-bottom mb-0 d-none">
         <hr class="hide-on-shorter bg-dark opacity-100 border-1 border-dark col-7 col-md-5 col-lg-4 mb-2 mt-2 ms-auto me-auto ">
-        <p class="small"><a href="./imprint.html" data-i18n="app-imprint">Imprint</a> &#8226; <a target="_blank" href="https://icons8.com/icon/B5cwhcZbHfvL/sign-up">Icons</a> <span data-i18n="app-icons-by">from</span> <a target="_blank" href="https://icons8.com">Icons8</a><br>
+        <p class="small"><a href="./imprint.html" data-i18n="app-imprint">Imprint</a> &#8226; <a data-i18n="app-report-bug" target="_blank" href="https://github.com/Johannes1509/fake-artists-word-generator/issues/new">Report bugs</a> &#8226; <a target="_blank" href="https://icons8.com/icon/B5cwhcZbHfvL/sign-up">Icons</a> <span data-i18n="app-icons-by">from</span> <a target="_blank" href="https://icons8.com">Icons8</a><br>
             <span data-i18n="app-creator-by">Created by</span> <a href="https://github.com/Johannes1509">Johannes1509</a> <span data-i18n="app-creator-with">with</span> &#10084;</p>
     </div>
     <script src="scripts/i18n.js"></script>

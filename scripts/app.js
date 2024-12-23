@@ -7,6 +7,19 @@ let category = "";
 let players = 0;
 var gameRunning = false;
 let gameStatus = "";
+let showWordCategory = true;
+
+$("#showWordCategoryCheck").on("click", function () {
+    if (gameRunning == true) {
+        if (confirm($.i18n('game-reset-confirm')) == false) {
+            //reset value
+            $('#showWordCategoryCheck').prop('checked', showWordCategory);
+            return;
+        }
+        endGame();
+    }
+    showWordCategory = $('#showWordCategoryCheck').is(":checked");
+});
 
 $("#generateGame").on("click", function () {
 
@@ -44,7 +57,14 @@ $("#generateGame").on("click", function () {
     $("#next-player").text(`1`);
     $("#next-player").show();
     $("#showWord").text($.i18n("game-show-word"));
-    $("#category").text(category);
+
+    if(showWordCategory){
+        $("#category").text(category);
+        $(".word-category-visible").removeClass("d-none");
+    }else{
+        $(".word-category-visible").addClass("d-none");
+    }
+
     $("#gameArea").removeClass("invisible");
 });
 
@@ -80,14 +100,6 @@ $("#showWord").on("click", function () {
         }
     }
 });
-
-
-function updateText() {
-    switch (gameStatus) {
-        case "":
-            break;
-    }
-}
 
 
 function endGame() {
