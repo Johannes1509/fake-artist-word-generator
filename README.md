@@ -1,12 +1,12 @@
-# Word generator for "A fake artist goes to New York" by Oink Games
+# Word generator for ‘A fake artist goes to New York’ by Oink Games
 
 ## How to use
-1. [Webseite öffnen](https://johannes1509.github.io/fake-artists-word-generator/)
-2. Spieleranzahl eingeben
-3. Auswählen, ob die Wortkategorie allen Spielern bekannt sein soll (Standard: ja, Spiel wird für Fake-Künstler leichter, für Malende schwerer)
-4. Spiel generieren
-5. Das Smartphone wird an jeden Spieler gereicht
-6. Jeder Spiel zeigt sich das Wort an (oder erhält die Info, dass er der Fake Artist ist)
+1. [Open website](https://johannes1509.github.io/fake-artists-word-generator/)
+2. Enter the number of players
+3. Select whether the word category should be known to all players (default: yes, game becomes easier for fake artist, harder for painters)
+4. Generate game
+5. The smartphone is handed to each player
+6. Each game shows the word (or receives the information that he is the fake artist)
 
 ---------
-Inoffizielle Begleit-App zum Spiel ["A fake artists goes to New York" von Oink Games](https://oinkgames.com/de/games/analog/a-fake-artist-goes-to-new-york/)
+Unofficial companion app to the game [‘A fake artist goes to New York’ by Oink Games](https://oinkgames.com/de/games/analog/a-fake-artist-goes-to-new-york/)
