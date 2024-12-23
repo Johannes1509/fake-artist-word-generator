@@ -125,7 +125,7 @@ const words = [
             "en": "House"
         },
         "category": {
-            "de": "Geb\u00c3\u00a4ude",
+            "de": "Gebäude",
             "en": "Buildings"
         }
     },
@@ -135,7 +135,7 @@ const words = [
             "en": "School"
         },
         "category": {
-            "de": "Geb\u00c3\u00a4ude",
+            "de": "Gebäude",
             "en": "Buildings"
         }
     },
@@ -145,7 +145,7 @@ const words = [
             "en": "Church"
         },
         "category": {
-            "de": "Geb\u00c3\u00a4ude",
+            "de": "Gebäude",
             "en": "Buildings"
         }
     },
@@ -155,7 +155,7 @@ const words = [
             "en": "Hospital"
         },
         "category": {
-            "de": "Geb\u00c3\u00a4ude",
+            "de": "Gebäude",
             "en": "Buildings"
         }
     },
@@ -191,7 +191,7 @@ const words = [
     },
     {
         "word": {
-            "de": "L\u00c3\u00b6we",
+            "de": "Löwe",
             "en": "Lion"
         },
         "category": {
@@ -371,7 +371,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Stra\u00c3\u0178enbahn",
+            "de": "Straßenbahn",
             "en": "Tram"
         },
         "category": {
@@ -485,7 +485,7 @@ const words = [
             "en": "camping"
         },
         "category": {
-            "de": "Aktivit\u00c3\u00a4t",
+            "de": "Aktivität",
             "en": "activity"
         }
     },
@@ -495,7 +495,7 @@ const words = [
             "en": "forehead"
         },
         "category": {
-            "de": "K\u00c3\u00b6rper",
+            "de": "Körper",
             "en": "anatomy"
         }
     },
@@ -505,7 +505,7 @@ const words = [
             "en": "kneecap"
         },
         "category": {
-            "de": "K\u00c3\u00b6rper",
+            "de": "Körper",
             "en": "anatomy"
         }
     },
@@ -515,7 +515,7 @@ const words = [
             "en": "mustache"
         },
         "category": {
-            "de": "K\u00c3\u00b6rper",
+            "de": "Körper",
             "en": "anatomy"
         }
     },
@@ -525,7 +525,7 @@ const words = [
             "en": "shoulder"
         },
         "category": {
-            "de": "K\u00c3\u00b6rper",
+            "de": "Körper",
             "en": "anatomy"
         }
     },
@@ -535,7 +535,7 @@ const words = [
             "en": "stomach"
         },
         "category": {
-            "de": "K\u00c3\u00b6rper",
+            "de": "Körper",
             "en": "anatomy"
         }
     },
@@ -591,7 +591,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Gl\u00c3\u00bchw\u00c3\u00bcrmchen",
+            "de": "Glühwürmchen",
             "en": "firefly"
         },
         "category": {
@@ -661,7 +661,7 @@ const words = [
     },
     {
         "word": {
-            "de": "K\u00c3\u00a4nguru",
+            "de": "Känguru",
             "en": "kangaroo"
         },
         "category": {
@@ -761,7 +761,7 @@ const words = [
     },
     {
         "word": {
-            "de": "M\u00c3\u00b6we",
+            "de": "Möwe",
             "en": "seagull"
         },
         "category": {
@@ -781,7 +781,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Eichh\u00c3\u00b6rnchen",
+            "de": "Eichhörnchen",
             "en": "squirrel"
         },
         "category": {
@@ -801,7 +801,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Schildkr\u00c3\u00b6te",
+            "de": "Schildkröte",
             "en": "tortoise"
         },
         "category": {
@@ -865,7 +865,7 @@ const words = [
             "en": "lemonade"
         },
         "category": {
-            "de": "Getr\u00c3\u00a4nk",
+            "de": "Getränk",
             "en": "beverage"
         }
     },
@@ -981,7 +981,7 @@ const words = [
     },
     {
         "word": {
-            "de": "K\u00c3\u00a4se",
+            "de": "Käse",
             "en": "cheese"
         },
         "category": {
@@ -1181,7 +1181,7 @@ const words = [
     },
     {
         "word": {
-            "de": "K\u00c3\u00bcrbis",
+            "de": "Kürbis",
             "en": "pumpkin"
         },
         "category": {
@@ -1301,7 +1301,7 @@ const words = [
     },
     {
         "word": {
-            "de": "K\u00c3\u00bcnstler",
+            "de": "Künstler",
             "en": "artist"
         },
         "category": {
@@ -1321,7 +1321,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Kapit\u00c3\u00a4n",
+            "de": "Kapitän",
             "en": "captain"
         },
         "category": {
@@ -1381,7 +1381,7 @@ const words = [
     },
     {
         "word": {
-            "de": "G\u00c3\u00a4rtner",
+            "de": "Gärtner",
             "en": "gardener"
         },
         "category": {
@@ -1391,7 +1391,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Brieftr\u00c3\u00a4ger",
+            "de": "Briefträger",
             "en": "mailman"
         },
         "category": {
@@ -1451,7 +1451,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Bogenschie\u00c3\u0178en",
+            "de": "Bogenschießen",
             "en": "archery"
         },
         "category": {
@@ -1501,7 +1501,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Fu\u00c3\u0178ball",
+            "de": "Fußball",
             "en": "football"
         },
         "category": {
@@ -1551,7 +1551,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Kettens\u00c3\u00a4ge",
+            "de": "Kettensäge",
             "en": "chainsaw"
         },
         "category": {

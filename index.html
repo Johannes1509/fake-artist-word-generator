@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="de" class="h-100">
+<html lang="en" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wortgenerator für das Spiel „A fake artists goes to New York“</title>
+    <meta http-equiv="Content-Language" content="en,de">
+    <meta name="description" content='Word generator for "A fake artists goes to New York" by Oink Games. Replace the game master for a gaming experience that involves everyone.'>
+    <meta name="robots" content="index, follow">
+    <title>Fake Artist word generator</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -17,6 +20,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css"/>
+    <!-- i18n localization -->
+    <script src="scripts/jqueryi18n/jquery.i18n.js"></script>
+    <script src="scripts/jqueryi18n/jquery.i18n.messagestore.js"></script>
+    <script src="scripts/jqueryi18n/jquery.i18n.fallbacks.js"></script>
+    <script src="scripts/jqueryi18n/jquery.i18n.parser.js"></script>
+    <script src="scripts/jqueryi18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="scripts/jqueryi18n/jquery.i18n.emitter.js"></script>
+    <script src="scripts/jqueryi18n/jquery.i18n.language.js"></script>
 </head>
 <body class="h-100 ms-auto me-auto" style="max-width: 600px;">
     <!-- Google Tag Manager (noscript) -->
@@ -25,49 +36,50 @@
     <!-- End Google Tag Manager (noscript) -->
     <div class="row m-2 mt-3 ms-auto me-auto text-center align-items-center">
         <div class="col-8">
-            <h5>Inoffizieller Wortgenerator für das Spiel "A fake artists goes to New York" von Oink Games</h5>
+            <h6 data-i18n="app-title">Unofficial word generator for the game "A fake artists goes to New York" from Oink Games</h6>
         </div>
         <div class="col-4">
             <div class="form-floating ms-auto me-auto mb-2 form-control-sm">
                 <select class="form-select" id="language">
-                    <option value="de" selected>DE</option>
-                    <option value="en">EN</option>
+                    <option value="en" selected>EN</option>
+                    <option value="de">DE</option>
                 </select>
-                <label for="language">Sprache</label>
+                <label data-i18n="language-select" for="language">Language</label>
             </div>
         </div>
     </div>
     <hr class="bg-dark opacity-100 border-1 border-dark col-10 ms-auto me-auto mt-0">
     <div class="p-1 m-2 ms-3 me-3 card bg-white">
         <div class="card-body">
-            <h5 class="card-title">Dein Setup</h5>
-            <label for="playerCount">Spieleranzahl:</label>
-            <input class="form-control" type="number" id="playerCount" min="3" value="3" placeholder="Anzahl eingeben...">
+            <h5 class="card-title" data-i18n="game-setup-title">Your Setup</h5>
+            <label for="playerCount" data-i18n="game-setup-player-count-title">Player count:</label>
+            <input class="form-control" data-i18n="[placeholder]game-setup-player-count-value" type="number" id="playerCount" min="3" value="3" placeholder="Enter number...">
             <br>
-            <button type="button" class="mt-0 col-12 btn btn-light" id="generateGame">Spielrunde generieren</button>
+            <button type="button" class="mt-0 col-12 btn btn-light" data-i18n="game-setup-generate" id="generateGame">Generate game</button>
         </div>
     </div>
     <div class="p-1 m-2 ms-3 me-3 invisible" id="gameArea">
         <p class="hide-on-short m-0 ms-auto me-auto mb-2 col-12 text-center">&#8595;</p>
         <div class="card bg-white">
             <div class="card-body">
-                <h5 class="card-title">Generierte Spielrunde</h5>
+                <h5 class="card-title" data-i18n="game-title">Generated game round</h5>
                 <p class="text-center fs-6">
                     <span id="instruction"></span>
                         <span id="next-player" class="fw-bold"></span>
                     <span id="word" class="fw-bold"></span>
                 </p>
                 <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto">
-                <p class="text-center mt-2 fs-6 text-secondary">Wortkategorie der Runde: <span id="category" class="fw-bold"></span></p>
+                <p class="text-center mt-2 fs-6 text-secondary"><span data-i18n="game-word-category-title">Word category of game round:</span> <span id="category" class="fw-bold"></span></p>
                 <button type="button" class="btn btn-light col-12 mt-2" id="showWord">Wort anzeigen</button>
             </div>
         </div>
     </div>
     <div id="footer-info" class="hide-on-shortest text-center fixed-bottom mb-0 d-none">
-        <hr class="hide-on-shorter bg-dark opacity-100 border-1 border-dark col-7 mb-2 mt-2 ms-auto me-auto ">
-        <p class="small"><a href="./impressum.html">Impressum</a> &#8226; <a target="_blank" href="https://icons8.com/icon/B5cwhcZbHfvL/sign-up">Icons</a> von <a target="_blank" href="https://icons8.com">Icons8</a><br>
-        Erstellt von <a href="https://github.com/Johannes1509">Johannes1509</a> mit &#10084;</p>
+        <hr class="hide-on-shorter bg-dark opacity-100 border-1 border-dark col-7 col-md-5 col-lg-4 mb-2 mt-2 ms-auto me-auto ">
+        <p class="small"><a href="./imprint.html" data-i18n="app-imprint">Imprint</a> &#8226; <a target="_blank" href="https://icons8.com/icon/B5cwhcZbHfvL/sign-up">Icons</a> <span data-i18n="app-icons-by">from</span> <a target="_blank" href="https://icons8.com">Icons8</a><br>
+            <span data-i18n="app-creator-by">Created by</span> <a href="https://github.com/Johannes1509">Johannes1509</a> <span data-i18n="app-creator-with">with</span> &#10084;</p>
     </div>
+    <script src="scripts/i18n.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/display.js"></script>
 </body>
