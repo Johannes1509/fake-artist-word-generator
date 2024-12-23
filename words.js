@@ -161,26 +161,6 @@ const words = [
     },
     {
         "word": {
-            "de": "Hund",
-            "en": "Dog"
-        },
-        "category": {
-            "de": "Tiere",
-            "en": "Animals"
-        }
-    },
-    {
-        "word": {
-            "de": "Katze",
-            "en": "Cat"
-        },
-        "category": {
-            "de": "Tiere",
-            "en": "Animals"
-        }
-    },
-    {
-        "word": {
             "de": "Tiger",
             "en": "Tiger"
         },
@@ -437,16 +417,6 @@ const words = [
         "category": {
             "de": "Tiere",
             "en": "Animals"
-        }
-    },
-    {
-        "word": {
-            "de": "Wecker",
-            "en": "Alarm Clock"
-        },
-        "category": {
-            "de": "Haushalt",
-            "en": "Household"
         }
     },
     {
@@ -931,28 +901,8 @@ const words = [
     },
     {
         "word": {
-            "de": "Beerdigung",
-            "en": "funeral"
-        },
-        "category": {
-            "de": "Ereignis",
-            "en": "event"
-        }
-    },
-    {
-        "word": {
             "de": "Baguette",
             "en": "baguette"
-        },
-        "category": {
-            "de": "Essen",
-            "en": "food"
-        }
-    },
-    {
-        "word": {
-            "de": "BBQ",
-            "en": "barbeque"
         },
         "category": {
             "de": "Essen",
@@ -1401,7 +1351,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Kellnerin",
+            "de": "Kellner",
             "en": "waitress"
         },
         "category": {
@@ -1611,16 +1561,6 @@ const words = [
     },
     {
         "word": {
-            "de": "Roller",
-            "en": "scooter"
-        },
-        "category": {
-            "de": "Fahrzeug",
-            "en": "vehicle"
-        }
-    },
-    {
-        "word": {
             "de": "Abschleppwagen",
             "en": "towtruck"
         },
@@ -1633,16 +1573,6 @@ const words = [
         "word": {
             "de": "Traktor",
             "en": "tractor"
-        },
-        "category": {
-            "de": "Fahrzeug",
-            "en": "vehicle"
-        }
-    },
-    {
-        "word": {
-            "de": "Schlepper",
-            "en": "tugboat"
         },
         "category": {
             "de": "Fahrzeug",
