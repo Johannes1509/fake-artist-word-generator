@@ -871,16 +871,6 @@ const words = [
     },
     {
         "word": {
-            "de": "Computer",
-            "en": "computer"
-        },
-        "category": {
-            "de": "Computing",
-            "en": "computing"
-        }
-    },
-    {
-        "word": {
             "de": "Facebook",
             "en": "facebook"
         },
@@ -961,7 +951,7 @@ const words = [
     },
     {
         "word": {
-            "de": "Grill",
+            "de": "BBQ",
             "en": "barbeque"
         },
         "category": {
@@ -1021,26 +1011,6 @@ const words = [
     },
     {
         "word": {
-            "de": "Fastfood",
-            "en": "fastfood"
-        },
-        "category": {
-            "de": "Essen",
-            "en": "food"
-        }
-    },
-    {
-        "word": {
-            "de": "Zuckerguss",
-            "en": "frosting"
-        },
-        "category": {
-            "de": "Essen",
-            "en": "food"
-        }
-    },
-    {
-        "word": {
             "de": "Hotdog",
             "en": "hotdog"
         },
@@ -1061,8 +1031,8 @@ const words = [
     },
     {
         "word": {
-            "de": "Zitronen",
-            "en": "lemons"
+            "de": "Zitrone",
+            "en": "lemon"
         },
         "category": {
             "de": "Essen",
@@ -1131,8 +1101,8 @@ const words = [
     },
     {
         "word": {
-            "de": "Pfirsiche",
-            "en": "peaches"
+            "de": "Pfirsich",
+            "en": "peach"
         },
         "category": {
             "de": "Essen",
@@ -1343,16 +1313,6 @@ const words = [
         "word": {
             "de": "Zahnarzt",
             "en": "dentist"
-        },
-        "category": {
-            "de": "Beruf",
-            "en": "profession"
-        }
-    },
-    {
-        "word": {
-            "de": "Direktor",
-            "en": "director"
         },
         "category": {
             "de": "Beruf",
