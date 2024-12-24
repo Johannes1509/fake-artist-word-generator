@@ -1,12 +1,7 @@
 //get browser default language
 const browserLanguage = navigator.language || navigator.languages[0];
-const lang = browserLanguage.slice(0, 2);
-
-if (lang != "de") {
-    lang = "en"
-}else{
-    
-}
+let lang = browserLanguage.slice(0, 2);
+lang = lang == "de" ? lang : "en"
 
 var i18n = $.i18n({"locale": lang});
 var language = i18n.locale;
