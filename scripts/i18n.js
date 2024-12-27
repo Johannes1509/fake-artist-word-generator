@@ -31,7 +31,8 @@ i18n.load({
         "app-icons-by": "von",
         "app-creator-by": "Erstellt von",
         "app-creator-with": "mit",
-        "app-report-bug": "Fehler melden"
+        "app-report-bug": "Fehler melden",
+        "app-change-cookies": "Cookies-Einstellungen ändern"
     },
     "en": {
         "page-title": "Fake Artist word generator",
@@ -57,7 +58,8 @@ i18n.load({
         "app-icons-by": "by",
         "app-creator-by": "Created by",
         "app-creator-with": "with",
-        "app-report-bug": "Report bugs"
+        "app-report-bug": "Report bugs",
+        "app-change-cookies": "Update cookies preferences"
     }
 });
 

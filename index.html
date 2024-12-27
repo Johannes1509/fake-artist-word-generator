@@ -1,19 +1,12 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
-<head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-010CTSZWRZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-010CTSZWRZ');
-</script>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="Content-Language" content="en,de">
-    <meta name="description" content='Word generator for "A fake artist goes to New York" by Oink Games. A companion app that replaces the game master for a gaming experience that involves everyone. Uses words list with more than 150 different words to draw.'>
+    <meta name="description"
+        content='Word generator for "A fake artist goes to New York" by Oink Games. A companion app that replaces the game master for a gaming experience that involves everyone. Uses words list with more than 150 different words to draw.'>
     <meta name="robots" content="index, follow">
     <title>Fake Artist word generator companion app</title>
     <link rel="icon" type="image/png" href="favicon.png">
@@ -22,7 +15,7 @@
     <script type="text/javascript" src="words.js"></script>
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <script src="scripts/bootstrap/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <!-- i18n localization -->
     <script src="scripts/jqueryi18n/jquery.i18n.js"></script>
     <script src="scripts/jqueryi18n/jquery.i18n.messagestore.js"></script>
@@ -32,10 +25,36 @@
     <script src="scripts/jqueryi18n/jquery.i18n.emitter.js"></script>
     <script src="scripts/jqueryi18n/jquery.i18n.language.js"></script>
 </head>
+
 <body class="h-100 ms-auto me-auto" style="max-width: 600px;">
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js"
+        charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+        document.addEventListener('DOMContentLoaded', function () {
+            cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "en", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "Fake Artist word generator" });
+        });
+    </script>
+
+    <!-- Google Analytics -->
+    <script type="text/plain" data-cookie-consent="tracking" async
+        src="https://www.googletagmanager.com/gtag/js?id=G-010CTSZWRZ"></script>
+    <script type="text/plain" data-cookie-consent="tracking">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-010CTSZWRZ');
+</script>
+    <!-- end of Google Analytics-->
+
+    <noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    
     <div class="row m-2 mt-3 ms-auto me-auto text-center align-items-center">
         <div class="col-8">
-            <h6 data-i18n="app-title">Unofficial word generator for the game "A fake artist goes to New York" from Oink Games</h6>
+            <h6 data-i18n="app-title">Unofficial word generator for the game "A fake artist goes to New York" from Oink
+                Games</h6>
         </div>
         <div class="col-4">
             <div class="form-floating ms-auto me-auto mb-2 form-control-sm">
@@ -52,14 +71,16 @@
         <div class="card-body">
             <h5 class="card-title" data-i18n="game-setup-title">Your Setup</h5>
             <label for="playerCount" data-i18n="game-setup-player-count-title">Player count:</label>
-            <input class="form-control" data-i18n="[placeholder]game-setup-player-count-value" type="number" id="playerCount" min="3" inputmode="numeric" pattern="[0-9]+" placeholder="Enter number...">
+            <input class="form-control" data-i18n="[placeholder]game-setup-player-count-value" type="number"
+                id="playerCount" min="3" inputmode="numeric" pattern="[0-9]+" placeholder="Enter number...">
             <div class="form-check mt-1">
                 <input class="form-check-input" type="checkbox" value="" id="showWordCategoryCheck" checked>
                 <label class="form-check-label" for="showWordCategoryCheck" data-i18n="game-setup-show-word-category">
-                  Display word category to all players
+                    Display word category to all players
                 </label>
-              </div>
-            <button type="button" class="mt-3 col-12 btn btn-light" data-i18n="game-setup-generate" id="generateGame">Generate game</button>
+            </div>
+            <button type="button" class="mt-3 col-12 btn btn-light" data-i18n="game-setup-generate"
+                id="generateGame">Generate game</button>
         </div>
     </div>
     <div class="p-1 m-2 ms-3 me-3 invisible" id="gameArea">
@@ -69,22 +90,35 @@
                 <h5 class="card-title" data-i18n="game-title">Generated game round</h5>
                 <p class="text-center fs-6">
                     <span id="instruction"></span>
-                        <span id="next-player" class="fw-bold"></span>
+                    <span id="next-player" class="fw-bold"></span>
                     <span id="word" class="fw-bold"></span>
                 </p>
                 <hr class="bg-dark opacity-100 border-1 border-dark col-7 ms-auto me-auto word-category-visible">
-                <p class="text-center mt-2 fs-6 text-secondary word-category-visible"><span data-i18n="game-word-category-title">Word category of game round:</span> <span id="category" class="fw-bold"></span></p>
+                <p class="text-center mt-2 fs-6 text-secondary word-category-visible"><span
+                        data-i18n="game-word-category-title">Word category of game round:</span> <span id="category"
+                        class="fw-bold"></span></p>
                 <button type="button" class="btn btn-light col-12 mt-2" id="showWord">Wort anzeigen</button>
             </div>
         </div>
     </div>
     <div id="footer-info" class="hide-on-shortest text-center fixed-bottom mb-0 d-none">
-        <hr class="hide-on-shorter bg-dark opacity-100 border-1 border-dark col-7 col-md-5 col-lg-4 mb-2 mt-2 ms-auto me-auto ">
-        <p class="small"><a href="./imprint.html" data-i18n="app-imprint">Imprint</a> &#8226; <a data-i18n="app-report-bug" target="_blank" href="https://github.com/Johannes1509/fake-artist-word-generator/issues/new">Report bugs</a> &#8226; <a target="_blank" href="https://icons8.com/icon/B5cwhcZbHfvL/sign-up">Icons</a> <span data-i18n="app-icons-by">from</span> <a target="_blank" href="https://icons8.com">Icons8</a><br>
-            <span data-i18n="app-creator-by">Created by</span> <a href="https://github.com/Johannes1509">Johannes1509</a> <span data-i18n="app-creator-with">with</span> &#10084;</p>
+        <hr
+            class="hide-on-shorter bg-dark opacity-100 border-1 border-dark col-7 col-md-5 col-lg-4 mb-2 mt-2 ms-auto me-auto ">
+        <p class="small">
+            <a href="#" id="open_preferences_center" data-i18n="app-change-cookies">Update cookies preferences</a><br>
+            <a href="./imprint.html" data-i18n="app-imprint">Imprint</a> &#8226; <a
+                data-i18n="app-report-bug" target="_blank"
+                href="https://github.com/Johannes1509/fake-artist-word-generator/issues/new">Report bugs</a> &#8226; <a
+                target="_blank" href="https://icons8.com/icon/B5cwhcZbHfvL/sign-up">Icons</a> <span
+                data-i18n="app-icons-by">from</span> <a target="_blank" href="https://icons8.com">Icons8</a><br>
+            <span data-i18n="app-creator-by">Created by</span> <a
+                href="https://github.com/Johannes1509">Johannes1509</a> <span data-i18n="app-creator-with">with</span>
+            &#10084;
+        </p>
     </div>
     <script src="scripts/i18n.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/display.js"></script>
 </body>
+
 </html>
