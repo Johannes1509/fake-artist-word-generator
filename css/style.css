@@ -8,13 +8,3 @@ font-weight: normal;
 button {
     margin-top: 10px;
 }
-
-#center-bottom-message {
-    width:100%;
-    position:fixed;
-    bottom:0px;
-    text-align:center;
-    z-index:9999;
-    margin-bottom: 2%;
-}
-
