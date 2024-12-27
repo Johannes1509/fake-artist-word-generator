@@ -1,4 +1,4 @@
-const words = [
+[
     {
         "word": {
             "de": "Kuh",
@@ -331,6 +331,26 @@ const words = [
     },
     {
         "word": {
+            "de": "Schaf",
+            "en": "Sheep"
+        },
+        "category": {
+            "de": "Tiere",
+            "en": "Animals"
+        }
+    },
+    {
+        "word": {
+            "de": "Schlange",
+            "en": "Snake"
+        },
+        "category": {
+            "de": "Tiere",
+            "en": "Animals"
+        }
+    },
+    {
+        "word": {
             "de": "Bett",
             "en": "Bed"
         },
@@ -503,6 +523,16 @@ const words = [
         "word": {
             "de": "Hummer",
             "en": "lobster"
+        },
+        "category": {
+            "de": "Tier",
+            "en": "Animals"
+        }
+    },
+    {
+        "word": {
+            "de": "Mammut",
+            "en": "mammoth"
         },
         "category": {
             "de": "Tier",
@@ -701,6 +731,16 @@ const words = [
     },
     {
         "word": {
+            "de": "Baguette",
+            "en": "baguette"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
             "de": "Kokosnuss",
             "en": "coconut"
         },
@@ -721,8 +761,68 @@ const words = [
     },
     {
         "word": {
+            "de": "Hotdog",
+            "en": "hotdog"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
+            "de": "Lutscher",
+            "en": "lollipop"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
+            "de": "Muffin",
+            "en": "muffin"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
+            "de": "Nudeln",
+            "en": "noodles"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
             "de": "Pfannkuchen",
             "en": "pancakes"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
+            "de": "Pfirsich",
+            "en": "peach"
+        },
+        "category": {
+            "de": "Essen",
+            "en": "Food"
+        }
+    },
+    {
+        "word": {
+            "de": "Erdnuss",
+            "en": "peanut"
         },
         "category": {
             "de": "Essen",
