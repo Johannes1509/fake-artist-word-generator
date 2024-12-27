@@ -8,7 +8,7 @@
     <meta name="description"
         content='Word generator for "A fake artist goes to New York" by Oink Games. A companion app that replaces the game master for a gaming experience that involves everyone. Uses words list with more than 150 different words to draw.'>
     <meta name="robots" content="index, follow">
-    <title>Fake Artist word generator companion app</title>
+    <title>Fake Artist word generator companion app & words list</title>
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="apple-touch-icon" sizes="96x96" href="favicon.png">
     <script src="scripts/jquery/jquery-3.7.1.min.js"></script>
@@ -26,7 +26,7 @@
     <script src="scripts/jqueryi18n/jquery.i18n.language.js"></script>
 </head>
 
-<body class="h-100 ms-auto me-auto" style="max-width: 600px;">
+<body class="h-100 ms-auto me-auto d-flex flex-column vh-100" style="max-width: 600px;">
     <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
     <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js"
         charset="UTF-8"></script>
@@ -51,23 +51,26 @@
     <noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
     <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
     
-    <div class="row m-2 mt-3 ms-auto me-auto text-center align-items-center">
-        <div class="col-8">
-            <h6 data-i18n="app-title">Unofficial word generator for the game "A fake artist goes to New York" from Oink
-                Games</h6>
-        </div>
-        <div class="col-4">
-            <div class="form-floating ms-auto me-auto mb-2 form-control-sm">
-                <select class="form-select" id="language">
-                    <option value="en" selected>EN</option>
-                    <option value="de">DE</option>
-                </select>
-                <label data-i18n="language-select" for="language">Language</label>
+    <div class="m-1 mb-0 ms-auto me-auto text-center align-items-center mt-0 bg-white">
+        <div class="m-0 my-2 row">
+            <div class="col-2">
+                <button data-bs-toggle="modal" data-bs-target="#infoModal" class="btn bg-white mt-0 p-1"><img src="icons/icons8-info-144.png" width="32" height="32"/></button>
+            </div>
+            <div class="col-6">
+                <h6 class="mb-0" data-i18n="app-title">Unofficial word generator for the game "A fake artist goes to New York" from Oink
+                    Games</h6>
+            </div>
+            <div class="col-4">
+                <div class="ms-auto me-auto mb-2">
+                    <select class="form-select form-control-sm" id="language">
+                        <option value="en" selected>EN</option>
+                        <option value="de">DE</option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
-    <hr class="bg-dark opacity-100 border-1 border-dark col-10 ms-auto me-auto mt-0">
-    <div class="p-1 m-2 ms-3 me-3 card bg-white">
+    <div class="p-1 m-2 mt-3 mx-3 card bg-white">
         <div class="card-body">
             <h5 class="card-title" data-i18n="game-setup-title">Your Setup</h5>
             <label for="playerCount" data-i18n="game-setup-player-count-title">Player count:</label>
@@ -88,7 +91,7 @@
         <div class="card bg-white">
             <div class="card-body">
                 <h5 class="card-title" data-i18n="game-title">Generated game round</h5>
-                <p class="text-center fs-6">
+                <p class="text-center fs-6 mb-1">
                     <span id="instruction"></span>
                     <span id="next-player" class="fw-bold"></span>
                     <span id="word" class="fw-bold"></span>
@@ -97,11 +100,13 @@
                 <p class="text-center mt-2 fs-6 text-secondary word-category-visible"><span
                         data-i18n="game-word-category-title">Word category of game round:</span> <span id="category"
                         class="fw-bold"></span></p>
-                <button type="button" class="btn btn-light col-12 mt-2" id="showWord">Wort anzeigen</button>
+                <button type="button" class="btn btn-light col-12 mt-0" id="showWord">Wort anzeigen</button>
             </div>
         </div>
     </div>
-    <div id="footer-info" class="hide-on-shortest text-center fixed-bottom mb-0 d-none">
+    <div class="d-flex flex-grow-1"></div>
+
+    <div id="footer-info" class=" text-center mb-0">
         <hr
             class="hide-on-shorter bg-dark opacity-100 border-1 border-dark col-7 col-md-5 col-lg-4 mb-2 mt-2 ms-auto me-auto ">
         <p class="small">
@@ -116,6 +121,39 @@
             &#10084;
         </p>
     </div>
+<!-- Modal -->
+<div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="infoModalLabel" data-i18n="info-modal-title">About the app</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <h3 data-i18n="info-modal-howto-title">How to use?</h3>
+            <ol class="list-group list-group-numbered mb-3">
+                <li class="list-group-item" data-i18n="info-modal-howto-step1">Enter the number of players</li>
+                <li class="list-group-item" data-i18n="info-modal-howto-step2">Select whether the word category should be known to all players (default: yes, game becomes easier for fake artist, harder for painters)</li>
+                <li class="list-group-item" data-i18n="info-modal-howto-step3">Generate game</li>
+                <li class="list-group-item" data-i18n="info-modal-howto-step4">The smartphone is handed to each player</li>
+                <li class="list-group-item" data-i18n="info-modal-howto-step5">Each players will see the word (or receives the information that he is the fake artist)</li>
+            </ol>
+            <h3 data-i18n="info-modal-features-title">Features of this app</h1>
+                <ul class="list-group list-group-flush mb-3">
+                    <li class="list-group-item" data-i18n="info-modal-features-feat1">Words list with more than 150 unique words</li>
+                    <li class="list-group-item" data-i18n="info-modal-features-feat2">Full automatic game master</li>
+                    <li class="list-group-item" data-i18n="info-modal-features-feat3">No ads</li>
+                    <li class="list-group-item" data-i18n="info-modal-features-feat4">Supports English and German as languages</li>
+                  </ul>
+            <h3 data-i18n="info-modal-info-title">Information about the game</h1>
+            <p data-i18n="info-modal-info-text">"A Fake Artist Goes To New York" ist ein Spiel für 5 bis 10 Spieler. Man muss zeichnen und herausfinden wer der falsche Künstler sein könnte. Dies herauszufinden während man zeichnen muss ist nicht so einfach, wie man denkt...!</p> <a data-i18n="info-modal-info-link" href="https://oinkgames.com/en/games/analog/a-fake-artist-goes-to-new-york/" target="_blank">Zur Spielanleitung gehts hier.</a></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-i18n="info-modal-close">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
     <script src="scripts/i18n.js"></script>
     <script src="scripts/app.js"></script>
     <script src="scripts/display.js"></script>
