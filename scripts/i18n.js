@@ -33,6 +33,7 @@ $(document).ready(function(){
         if(language === "de"){
             $('#language').val("de").change();
         }
+        $("#imprint-content").html($.i18n("imprint-content"))
     });
 })
 
