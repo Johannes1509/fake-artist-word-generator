@@ -8,6 +8,11 @@ let players = 0;
 var gameRunning = false;
 let gameStatus = "";
 let showWordCategory = true;
+let words = [];
+
+$.getJSON("words.json", function(json) {
+    words = json
+});
 
 $("#showWordCategoryCheck").on("click", function () {
     if (gameRunning == true) {
