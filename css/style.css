@@ -3,12 +3,4 @@ body {
 font-weight: normal;
     background: linear-gradient(180deg, rgba(252,24,225,1) 0%, rgba(241,253,29,1) 96%, rgba(252,246,69,1) 100%);
     background-attachment:fixed;
-    height:100%;
-}
-button {
-    margin-top: 10px;
-}
-
-input, textarea, select, button {
-    font-size: 16px !important;
 }
