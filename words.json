@@ -2206,5 +2206,997 @@
             "fr": "m\u00e9t\u00e9o",
             "tr": "hava durumu"
         }
+    },
+    {
+        "word": {
+            "de": "Klavier",
+            "en": "Piano",
+            "es": "Piano",
+            "fr": "Piano",
+            "tr": "Piyano"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Gitarre",
+            "en": "Guitar",
+            "es": "Guitarra",
+            "fr": "Guitare",
+            "tr": "Gitar"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Trompete",
+            "en": "Trumpet",
+            "es": "Trompeta",
+            "fr": "Trompette",
+            "tr": "Trompet"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Geige",
+            "en": "Violin",
+            "es": "Violín",
+            "fr": "Violon",
+            "tr": "Keman"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Schlagzeug",
+            "en": "Drums",
+            "es": "Batería",
+            "fr": "Batterie",
+            "tr": "Davul"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Flöte",
+            "en": "Flute",
+            "es": "Flauta",
+            "fr": "Flûte",
+            "tr": "Flüt"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Saxophon",
+            "en": "Saxophone",
+            "es": "Saxofón",
+            "fr": "Saxophone",
+            "tr": "Saksafon"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Harfe",
+            "en": "Harp",
+            "es": "Arpa",
+            "fr": "Harpe",
+            "tr": "Arp"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Akkordeon",
+            "en": "Accordion",
+            "es": "Acordeón",
+            "fr": "Accordéon",
+            "tr": "Akordeon"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Mundharmonika",
+            "en": "Harmonica",
+            "es": "Armónica",
+            "fr": "Harmonica",
+            "tr": "Mızıka"
+        },
+        "category": {
+            "de": "Musikinstrumente",
+            "en": "Musical Instruments",
+            "es": "Instrumentos Musicales",
+            "fr": "Instruments de Musique",
+            "tr": "Müzik Aletleri"
+        }
+    },
+    {
+        "word": {
+            "de": "Rucksack",
+            "en": "Backpack",
+            "es": "Mochila",
+            "fr": "Sac à dos",
+            "tr": "Sırt çantası"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Schlüssel",
+            "en": "Key",
+            "es": "Llave",
+            "fr": "Clé",
+            "tr": "Anahtar"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Brille",
+            "en": "Glasses",
+            "es": "Gafas",
+            "fr": "Lunettes",
+            "tr": "Gözlük"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Schuh",
+            "en": "Shoe",
+            "es": "Zapato",
+            "fr": "Chaussure",
+            "tr": "Ayakkabı"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Tasse",
+            "en": "Mug",
+            "es": "Taza",
+            "fr": "Tasse",
+            "tr": "Bardak"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Kugelschreiber",
+            "en": "Pen",
+            "es": "Bolígrafo",
+            "fr": "Stylo",
+            "tr": "Tükenmez Kalem"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Uhr",
+            "en": "Watch",
+            "es": "Reloj",
+            "fr": "Montre",
+            "tr": "Saat"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Handy",
+            "en": "Phone",
+            "es": "Teléfono",
+            "fr": "Téléphone",
+            "tr": "Telefon"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Regenschirm",
+            "en": "Umbrella",
+            "es": "Paraguas",
+            "fr": "Parapluie",
+            "tr": "Şemsiye"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Notizbuch",
+            "en": "Notebook",
+            "es": "Cuaderno",
+            "fr": "Cahier",
+            "tr": "Defter"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Tasche",
+            "en": "Bag",
+            "es": "Bolsa",
+            "fr": "Sac",
+            "tr": "Çanta"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Geldbeutel",
+            "en": "Wallet",
+            "es": "Cartera",
+            "fr": "Portefeuille",
+            "tr": "Cüzdan"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Zahnbürste",
+            "en": "Toothbrush",
+            "es": "Cepillo de dientes",
+            "fr": "Brosse à dents",
+            "tr": "Diş Fırçası"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Fernbedienung",
+            "en": "Remote Control",
+            "es": "Mando a distancia",
+            "fr": "Télécommande",
+            "tr": "Uzaktan Kumanda"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Löffel",
+            "en": "Spoon",
+            "es": "Cuchara",
+            "fr": "Cuillère",
+            "tr": "Kaşık"
+        },
+        "category": {
+            "de": "Alltagsgegenstände",
+            "en": "Everyday Items",
+            "es": "Objetos cotidianos",
+            "fr": "Objets du quotidien",
+            "tr": "Günlük Eşyalar"
+        }
+    },
+    {
+        "word": {
+            "de": "Schach",
+            "en": "Chess",
+            "es": "Ajedrez",
+            "fr": "Échecs",
+            "tr": "Satranç"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Monopoly",
+            "en": "Monopoly",
+            "es": "Monopoly",
+            "fr": "Monopoly",
+            "tr": "Monopoly"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Kartenspiel",
+            "en": "Card Game",
+            "es": "Juego de Cartas",
+            "fr": "Jeu de Cartes",
+            "tr": "Kart Oyunu"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Scrabble",
+            "en": "Scrabble",
+            "es": "Scrabble",
+            "fr": "Scrabble",
+            "tr": "Scrabble"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Mensch ärgere Dich nicht",
+            "en": "Ludo",
+            "es": "Parchís",
+            "fr": "Petits Chevaux",
+            "tr": "Kızma Birader"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Tic Tac Toe",
+            "en": "Tic Tac Toe",
+            "es": "Tres en Raya",
+            "fr": "Morpion",
+            "tr": "SOS Oyunu"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Puzzle",
+            "en": "Puzzle",
+            "es": "Rompecabezas",
+            "fr": "Puzzle",
+            "tr": "Yapboz"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Memory",
+            "en": "Memory",
+            "es": "Memoria",
+            "fr": "Mémoire",
+            "tr": "Hafıza Oyunu"
+        },
+        "category": {
+            "de": "Spiele",
+            "en": "Games",
+            "es": "Juegos",
+            "fr": "Jeux",
+            "tr": "Oyunlar"
+        }
+    },
+    {
+        "word": {
+            "de": "Achterbahn",
+            "en": "Roller Coaster",
+            "es": "Montaña Rusa",
+            "fr": "Montagnes Russes",
+            "tr": "Hız Treni"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Karussell",
+            "en": "Carousel",
+            "es": "Carrusel",
+            "fr": "Carrousel",
+            "tr": "Atlı Karınca"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Riesenrad",
+            "en": "Ferris Wheel",
+            "es": "Noria",
+            "fr": "Grande Roue",
+            "tr": "Dönme Dolap"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Wasserbahn",
+            "en": "Log Flume",
+            "es": "Montaña Acuática",
+            "fr": "Bûches",
+            "tr": "Su Kaydırağı"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Geisterbahn",
+            "en": "Haunted House",
+            "es": "Casa Embrujada",
+            "fr": "Maison Hantée",
+            "tr": "Korku Evi"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Autoscooter",
+            "en": "Bumper Cars",
+            "es": "Coches de Choque",
+            "fr": "Auto-Tamponneuses",
+            "tr": "Çarpışan Arabalar"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Freifallturm",
+            "en": "Drop Tower",
+            "es": "Torre de Caída",
+            "fr": "Tour de Chute",
+            "tr": "Serbest Düşüş Kulesi"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Zuckerwatte",
+            "en": "Cotton Candy",
+            "es": "Algodón de Azúcar",
+            "fr": "Barbe à Papa",
+            "tr": "Pamuk Şeker"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Dosenwerfen",
+            "en": "Can Toss",
+            "es": "Tiro al Blanco",
+            "fr": "Lancer de Boîtes",
+            "tr": "Teneke Atma"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Looping",
+            "en": "Loop",
+            "es": "Looping",
+            "fr": "Looping",
+            "tr": "Dönüş"
+        },
+        "category": {
+            "de": "Freizeitpark",
+            "en": "Amusement Park",
+            "es": "Parque de Atracciones",
+            "fr": "Parc d'Attractions",
+            "tr": "Lunapark"
+        }
+    },
+    {
+        "word": {
+            "de": "Feuerwerk",
+            "en": "Fireworks",
+            "es": "Fuegos artificiales",
+            "fr": "Feux d'artifice",
+            "tr": "Havai fişek"
+        },
+        "category": {
+            "de": "Silvester",
+            "en": "New Year's Eve",
+            "es": "Año Nuevo",
+            "fr": "Réveillon",
+            "tr": "Yılbaşı"
+        }
+    },
+    {
+        "word": {
+            "de": "Sekt",
+            "en": "Champagne",
+            "es": "Champán",
+            "fr": "Champagne",
+            "tr": "Şampanya"
+        },
+        "category": {
+            "de": "Silvester",
+            "en": "New Year's Eve",
+            "es": "Año Nuevo",
+            "fr": "Réveillon",
+            "tr": "Yılbaşı"
+        }
+    },
+    {
+        "word": {
+            "de": "Bleigießen",
+            "en": "Lead Pouring",
+            "es": "Fundir plomo",
+            "fr": "Tirage de plomb",
+            "tr": "Kurşun dökme"
+        },
+        "category": {
+            "de": "Silvester",
+            "en": "New Year's Eve",
+            "es": "Año Nuevo",
+            "fr": "Réveillon",
+            "tr": "Yılbaşı"
+        }
+    },
+    {
+        "word": {
+            "de": "Mitternacht",
+            "en": "Midnight",
+            "es": "Medianoche",
+            "fr": "Minuit",
+            "tr": "Gece yarısı"
+        },
+        "category": {
+            "de": "Silvester",
+            "en": "New Year's Eve",
+            "es": "Año Nuevo",
+            "fr": "Réveillon",
+            "tr": "Yılbaşı"
+        }
+    },
+    {
+        "word": {
+            "de": "Glücksklee",
+            "en": "Lucky Clover",
+            "es": "Trébol de la suerte",
+            "fr": "Trèfle porte-bonheur",
+            "tr": "Şans yoncası"
+        },
+        "category": {
+            "de": "Silvester",
+            "en": "New Year's Eve",
+            "es": "Año Nuevo",
+            "fr": "Réveillon",
+            "tr": "Yılbaşı"
+        }
+    },
+    {
+        "word": {
+            "de": "Wunderkerze",
+            "en": "Sparkler",
+            "es": "Bengala",
+            "fr": "Cierge magique",
+            "tr": "Maytap"
+        },
+        "category": {
+            "de": "Silvester",
+            "en": "New Year's Eve",
+            "es": "Año Nuevo",
+            "fr": "Réveillon",
+            "tr": "Yılbaşı"
+        }
+    },
+    {
+        "word": {
+            "de": "Strand",
+            "en": "Beach",
+            "es": "Playa",
+            "fr": "Plage",
+            "tr": "Plaj"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Hotel",
+            "en": "Hotel",
+            "es": "Hotel",
+            "fr": "Hôtel",
+            "tr": "Otel"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Koffer",
+            "en": "Suitcase",
+            "es": "Maleta",
+            "fr": "Valise",
+            "tr": "Bavul"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Flughafen",
+            "en": "Airport",
+            "es": "Aeropuerto",
+            "fr": "Aéroport",
+            "tr": "Havalimanı"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Sonnencreme",
+            "en": "Sunscreen",
+            "es": "Protector solar",
+            "fr": "Crème solaire",
+            "tr": "Güneş kremi"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Pool",
+            "en": "Swimming Pool",
+            "es": "Piscina",
+            "fr": "Piscine",
+            "tr": "Yüzme havuzu"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Postkarte",
+            "en": "Postcard",
+            "es": "Postal",
+            "fr": "Carte postale",
+            "tr": "Kartpostal"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Sand",
+            "en": "Sand",
+            "es": "Arena",
+            "fr": "Sable",
+            "tr": "Kum"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Sonnenschirm",
+            "en": "Parasol",
+            "es": "Sombrilla",
+            "fr": "Parasol",
+            "tr": "Güneş şemsiyesi"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Cocktail",
+            "en": "Cocktail",
+            "es": "Cóctel",
+            "fr": "Cocktail",
+            "tr": "Kokteyl"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Badehose",
+            "en": "Swim Trunks",
+            "es": "Bañador",
+            "fr": "Short de bain",
+            "tr": "Mayo"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Sonnenbrille",
+            "en": "Sunglasses",
+            "es": "Gafas de sol",
+            "fr": "Lunettes de soleil",
+            "tr": "Güneş gözlüğü"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
+    },
+    {
+        "word": {
+            "de": "Meer",
+            "en": "Sea",
+            "es": "Mar",
+            "fr": "Mer",
+            "tr": "Deniz"
+        },
+        "category": {
+            "de": "Urlaub",
+            "en": "Vacation",
+            "es": "Vacaciones",
+            "fr": "Vacances",
+            "tr": "Tatil"
+        }
     }
 ]
