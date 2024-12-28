@@ -1,4 +1,7 @@
 import json 
+import matplotlib.pyplot as plt
+
+
 with open("words.json") as f:
     words = json.load(f)
 
@@ -15,11 +18,25 @@ for item in words:
     category_items[current_category].append(current_word)
 
 
-words_count = 0
+total_words_count = 0
 for k, v in category_items.items():
-    words_count += len(v) 
+    total_words_count += len(v) 
 
-
+percentages_by_category = []
 for key, value in category_items.items():
-    percentage = len(value)/words_count
-    print(key, "Number of words:", len(value), "Percentage of all words:", percentage*100)
+    percentages_by_category.append((len(value)/total_words_count)*100)
+
+plt.figure(figsize=(8, 6))
+plt.bar(category_items.keys(), percentages_by_category, alpha=0.8)
+plt.title("Prozentualer Anteil der Wörter nach Kategorie")
+plt.xlabel("Kategorie")
+plt.ylabel("Prozent")
+plt.ylim(0, max(percentages_by_category) + 10)
+
+for i, percent in enumerate(percentages_by_category):
+    plt.text(i, percent + 1, f"{percent:.1f}%", ha='center', fontsize=10)
+
+plt.xticks(rotation=90)
+
+plt.tight_layout()
+plt.show()

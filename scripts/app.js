@@ -2,6 +2,7 @@
 
 let currentPlayer = 1;
 let fakePlayer = -1;
+let lastCategory = "";
 let word = "";
 let category = "";
 let players = 0;
@@ -54,9 +55,14 @@ $("#generateGame").on("click", function () {
     gameRunning = true;
 
     // Load word from JSON
-    const randomIndex = Math.floor(Math.random() * words.length);
-    word = words[randomIndex]["word"][language];
-    category = words[randomIndex]["category"][language];
+    lastCategory = category
+    generateCount = 0
+    while (lastCategory == category || generateCount < 5) {
+        const randomIndex = Math.floor(Math.random() * words.length);
+        word = words[randomIndex]["word"][language];
+        category = words[randomIndex]["category"][language];
+        generateCount++;
+    }    
 
     $("#instruction").text($.i18n("game-instruction-pass"));
     $("#next-player").text(`1`);
