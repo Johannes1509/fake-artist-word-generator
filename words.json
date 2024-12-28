@@ -2,1381 +2,2209 @@
     {
         "word": {
             "de": "Kuh",
-            "en": "Cow"
+            "en": "Cow",
+            "es": "Vaca",
+            "fr": "Vache",
+            "tr": "\u0130nek"
         },
         "category": {
             "de": "Tiere",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Elefant",
-            "en": "Elephant"
+            "en": "Elephant",
+            "es": "Elefante",
+            "fr": "\u00c9l\u00e9phant",
+            "tr": "Fil"
         },
         "category": {
             "de": "Tiere",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Apfel",
-            "en": "Apple"
+            "en": "Apple",
+            "es": "Manzana",
+            "fr": "Pomme",
+            "tr": "Elma"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Banane",
-            "en": "Banana"
+            "en": "Banana",
+            "es": "Banana",
+            "fr": "Banane",
+            "tr": "Muz"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Pizza",
-            "en": "Pizza"
+            "en": "Pizza",
+            "es": "Pizza",
+            "fr": "Pizza",
+            "tr": "Pizza"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Karotte",
-            "en": "Carrot"
+            "en": "Carrot",
+            "es": "Zanahoria",
+            "fr": "Carotte",
+            "tr": "Havu\u00e7"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Flugzeug",
-            "en": "Airplane"
+            "en": "Airplane",
+            "es": "Avi\u00f3n",
+            "fr": "Avion",
+            "tr": "U\u00e7ak"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Auto",
-            "en": "Car"
+            "en": "Car",
+            "es": "Auto",
+            "fr": "Voiture",
+            "tr": "Araba"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Zug",
-            "en": "Train"
+            "en": "Train",
+            "es": "Tren",
+            "fr": "Former",
+            "tr": "Tren"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Schiff",
-            "en": "Ship"
+            "en": "Ship",
+            "es": "Barco",
+            "fr": "Bateau",
+            "tr": "Gemi"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Haus",
-            "en": "House"
+            "en": "House",
+            "es": "Casa",
+            "fr": "Maison",
+            "tr": "Ev"
         },
         "category": {
-            "de": "Gebäude",
-            "en": "Buildings"
+            "de": "Geb\u00e4ude",
+            "en": "Buildings",
+            "es": "Edificios",
+            "fr": "B\u00e2timents",
+            "tr": "Binalar"
         }
     },
     {
         "word": {
             "de": "Schule",
-            "en": "School"
+            "en": "School",
+            "es": "Escuela",
+            "fr": "\u00c9cole",
+            "tr": "Okul"
         },
         "category": {
-            "de": "Gebäude",
-            "en": "Buildings"
+            "de": "Geb\u00e4ude",
+            "en": "Buildings",
+            "es": "Edificios",
+            "fr": "B\u00e2timents",
+            "tr": "Binalar"
         }
     },
     {
         "word": {
             "de": "Kirche",
-            "en": "Church"
+            "en": "Church",
+            "es": "Iglesia",
+            "fr": "\u00c9glise",
+            "tr": "Kilise"
         },
         "category": {
-            "de": "Gebäude",
-            "en": "Buildings"
+            "de": "Geb\u00e4ude",
+            "en": "Buildings",
+            "es": "Edificios",
+            "fr": "B\u00e2timents",
+            "tr": "Binalar"
         }
     },
     {
         "word": {
             "de": "Krankenhaus",
-            "en": "Hospital"
+            "en": "Hospital",
+            "es": "Hospital",
+            "fr": "H\u00f4pital",
+            "tr": "Hastane"
         },
         "category": {
-            "de": "Gebäude",
-            "en": "Buildings"
+            "de": "Geb\u00e4ude",
+            "en": "Buildings",
+            "es": "Edificios",
+            "fr": "B\u00e2timents",
+            "tr": "Binalar"
         }
     },
     {
         "word": {
-            "de": "Löwe",
-            "en": "Lion"
+            "de": "L\u00f6we",
+            "en": "Lion",
+            "es": "Le\u00f3n",
+            "fr": "Lion",
+            "tr": "Aslan"
         },
         "category": {
             "de": "Tiere",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Schokolade",
-            "en": "Chocolate"
+            "en": "Chocolate",
+            "es": "Chocolate",
+            "fr": "Chocolat",
+            "tr": "\u00c7ikolata"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Brot",
-            "en": "Bread"
+            "en": "Bread",
+            "es": "Pan",
+            "fr": "Pain",
+            "tr": "Ekmek"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Flugzeug",
-            "en": "Airplane"
+            "en": "Airplane",
+            "es": "Avi\u00f3n",
+            "fr": "Avion",
+            "tr": "U\u00e7ak"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Fahrrad",
-            "en": "Bicycle"
+            "en": "Bicycle",
+            "es": "Bicicleta",
+            "fr": "V\u00e9lo",
+            "tr": "Bisiklet"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Bus",
-            "en": "Bus"
+            "en": "Bus",
+            "es": "Autob\u00fas",
+            "fr": "Bus",
+            "tr": "Otob\u00fcs"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Motorrad",
-            "en": "Motorcycle"
+            "en": "Motorcycle",
+            "es": "Motocicleta",
+            "fr": "Moto",
+            "tr": "Motosiklet"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Laptop",
-            "en": "Laptop"
+            "en": "Laptop",
+            "es": "Computadora port\u00e1til",
+            "fr": "Ordinateur portable",
+            "tr": "Diz\u00fcst\u00fc bilgisayar"
         },
         "category": {
             "de": "Technologie",
-            "en": "Technology"
+            "en": "Technology",
+            "es": "Tecnolog\u00eda",
+            "fr": "Technologie",
+            "tr": "Teknoloji"
         }
     },
     {
         "word": {
             "de": "Smartphone",
-            "en": "Smartphone"
+            "en": "Smartphone",
+            "es": "Tel\u00e9fono inteligente",
+            "fr": "Smartphone",
+            "tr": "Ak\u0131ll\u0131 telefon"
         },
         "category": {
             "de": "Technologie",
-            "en": "Technology"
+            "en": "Technology",
+            "es": "Tecnolog\u00eda",
+            "fr": "Technologie",
+            "tr": "Teknoloji"
         }
     },
     {
         "word": {
             "de": "Kamera",
-            "en": "Camera"
+            "en": "Camera",
+            "es": "C\u00e1mara",
+            "fr": "Cam\u00e9ra",
+            "tr": "Kamera"
         },
         "category": {
             "de": "Technologie",
-            "en": "Technology"
+            "en": "Technology",
+            "es": "Tecnolog\u00eda",
+            "fr": "Technologie",
+            "tr": "Teknoloji"
         }
     },
     {
         "word": {
             "de": "Fernseher",
-            "en": "Television"
+            "en": "Television",
+            "es": "Televisi\u00f3n",
+            "fr": "T\u00e9l\u00e9vision",
+            "tr": "Televizyon"
         },
         "category": {
             "de": "Technologie",
-            "en": "Technology"
+            "en": "Technology",
+            "es": "Tecnolog\u00eda",
+            "fr": "Technologie",
+            "tr": "Teknoloji"
         }
     },
     {
         "word": {
             "de": "Sonne",
-            "en": "Sun"
+            "en": "Sun",
+            "es": "Sol",
+            "fr": "Soleil",
+            "tr": "G\u00fcne\u015f"
         },
         "category": {
             "de": "Natur",
-            "en": "Nature"
+            "en": "Nature",
+            "es": "Naturaleza",
+            "fr": "Nature",
+            "tr": "Do\u011fa"
         }
     },
     {
         "word": {
             "de": "Mond",
-            "en": "Moon"
+            "en": "Moon",
+            "es": "Luna",
+            "fr": "Lune",
+            "tr": "Ay"
         },
         "category": {
             "de": "Natur",
-            "en": "Nature"
+            "en": "Nature",
+            "es": "Naturaleza",
+            "fr": "Nature",
+            "tr": "Do\u011fa"
         }
     },
     {
         "word": {
             "de": "Baum",
-            "en": "Tree"
+            "en": "Tree",
+            "es": "\u00c1rbol",
+            "fr": "Arbre",
+            "tr": "A\u011fa\u00e7"
         },
         "category": {
             "de": "Natur",
-            "en": "Nature"
+            "en": "Nature",
+            "es": "Naturaleza",
+            "fr": "Nature",
+            "tr": "Do\u011fa"
         }
     },
     {
         "word": {
             "de": "Blume",
-            "en": "Flower"
+            "en": "Flower",
+            "es": "Flor",
+            "fr": "Fleur",
+            "tr": "\u00c7i\u00e7ek"
         },
         "category": {
             "de": "Natur",
-            "en": "Nature"
+            "en": "Nature",
+            "es": "Naturaleza",
+            "fr": "Nature",
+            "tr": "Do\u011fa"
         }
     },
     {
         "word": {
             "de": "Auto",
-            "en": "Car"
+            "en": "Car",
+            "es": "Auto",
+            "fr": "Voiture",
+            "tr": "Araba"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
-            "de": "Straßenbahn",
-            "en": "Tram"
+            "de": "Stra\u00dfenbahn",
+            "en": "Tram",
+            "es": "Tranv\u00eda",
+            "fr": "Tram",
+            "tr": "Tramvay"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Lkw",
-            "en": "Truck"
+            "en": "Truck",
+            "es": "Cami\u00f3n",
+            "fr": "Camion",
+            "tr": "Kamyon"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Helikopter",
-            "en": "Helicopter"
+            "en": "Helicopter",
+            "es": "Helic\u00f3ptero",
+            "fr": "H\u00e9licopt\u00e8re",
+            "tr": "Helikopter"
         },
         "category": {
             "de": "Transport",
-            "en": "Transport"
+            "en": "Transport",
+            "es": "Transporte",
+            "fr": "Transport",
+            "tr": "Ta\u015f\u0131mac\u0131l\u0131k"
         }
     },
     {
         "word": {
             "de": "Bett",
-            "en": "Bed"
+            "en": "Bed",
+            "es": "Cama",
+            "fr": "Lit",
+            "tr": "Yatak"
         },
         "category": {
             "de": "Haushalt",
-            "en": "Household"
+            "en": "Household",
+            "es": "Familiar",
+            "fr": "M\u00e9nage",
+            "tr": "Ev"
         }
     },
     {
         "word": {
             "de": "Tisch",
-            "en": "Table"
+            "en": "Table",
+            "es": "Mesa",
+            "fr": "Tableau",
+            "tr": "Masa"
         },
         "category": {
             "de": "Haushalt",
-            "en": "Household"
+            "en": "Household",
+            "es": "Familiar",
+            "fr": "M\u00e9nage",
+            "tr": "Ev"
         }
     },
     {
         "word": {
             "de": "Lampe",
-            "en": "Lamp"
+            "en": "Lamp",
+            "es": "L\u00e1mpara",
+            "fr": "Lampe",
+            "tr": "Lamba"
         },
         "category": {
             "de": "Haushalt",
-            "en": "Household"
+            "en": "Household",
+            "es": "Familiar",
+            "fr": "M\u00e9nage",
+            "tr": "Ev"
         }
     },
     {
         "word": {
             "de": "Camping",
-            "en": "camping"
+            "en": "camping",
+            "es": "c\u00e1mping",
+            "fr": "camping",
+            "tr": "kamp"
         },
         "category": {
-            "de": "Aktivität",
-            "en": "activity"
+            "de": "Aktivit\u00e4t",
+            "en": "activity",
+            "es": "actividad",
+            "fr": "activit\u00e9",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Stirn",
-            "en": "forehead"
+            "en": "forehead",
+            "es": "frente",
+            "fr": "front",
+            "tr": "al\u0131n"
         },
         "category": {
-            "de": "Körper",
-            "en": "anatomy"
+            "de": "K\u00f6rper",
+            "en": "anatomy",
+            "es": "anatom\u00eda",
+            "fr": "anatomie",
+            "tr": "anatomi"
         }
     },
     {
         "word": {
             "de": "Kniescheibe",
-            "en": "kneecap"
+            "en": "kneecap",
+            "es": "r\u00f3tula",
+            "fr": "rotule",
+            "tr": "diz kapa\u011f\u0131"
         },
         "category": {
-            "de": "Körper",
-            "en": "anatomy"
+            "de": "K\u00f6rper",
+            "en": "anatomy",
+            "es": "anatom\u00eda",
+            "fr": "anatomie",
+            "tr": "anatomi"
         }
     },
     {
         "word": {
             "de": "Schnurrbart",
-            "en": "mustache"
+            "en": "mustache",
+            "es": "bigote",
+            "fr": "moustache",
+            "tr": "b\u0131y\u0131k"
         },
         "category": {
-            "de": "Körper",
-            "en": "anatomy"
+            "de": "K\u00f6rper",
+            "en": "anatomy",
+            "es": "anatom\u00eda",
+            "fr": "anatomie",
+            "tr": "anatomi"
         }
     },
     {
         "word": {
             "de": "Schulter",
-            "en": "shoulder"
+            "en": "shoulder",
+            "es": "hombro",
+            "fr": "\u00e9paule",
+            "tr": "omuz"
         },
         "category": {
-            "de": "Körper",
-            "en": "anatomy"
+            "de": "K\u00f6rper",
+            "en": "anatomy",
+            "es": "anatom\u00eda",
+            "fr": "anatomie",
+            "tr": "anatomi"
         }
     },
     {
         "word": {
             "de": "Magen",
-            "en": "stomach"
+            "en": "stomach",
+            "es": "est\u00f3mago",
+            "fr": "estomac",
+            "tr": "kar\u0131n"
         },
         "category": {
-            "de": "Körper",
-            "en": "anatomy"
+            "de": "K\u00f6rper",
+            "en": "anatomy",
+            "es": "anatom\u00eda",
+            "fr": "anatomie",
+            "tr": "anatomi"
         }
     },
     {
         "word": {
             "de": "Delphin",
-            "en": "dolphin"
+            "en": "dolphin",
+            "es": "delf\u00edn",
+            "fr": "dauphin",
+            "tr": "yunus"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Elefant",
-            "en": "elephant"
+            "en": "elephant",
+            "es": "elefante",
+            "fr": "\u00e9l\u00e9phant",
+            "tr": "fil"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Flamingo",
-            "en": "flamingo"
+            "en": "flamingo",
+            "es": "flamenco",
+            "fr": "flamant",
+            "tr": "flamingo"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Giraffe",
-            "en": "giraffe"
+            "en": "giraffe",
+            "es": "jirafa",
+            "fr": "girafe",
+            "tr": "z\u00fcrafa"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Gorilla",
-            "en": "gorilla"
+            "en": "gorilla",
+            "es": "gorila",
+            "fr": "gorille",
+            "tr": "goril"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Hamster",
-            "en": "hamster"
+            "en": "hamster",
+            "es": "h\u00e1mster",
+            "fr": "hamster",
+            "tr": "hamster"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
-            "de": "Känguru",
-            "en": "kangaroo"
+            "de": "K\u00e4nguru",
+            "en": "kangaroo",
+            "es": "canguro",
+            "fr": "kangourou",
+            "tr": "kanguru"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Eidechse",
-            "en": "lizard"
+            "en": "lizard",
+            "es": "lagarto",
+            "fr": "l\u00e9zard",
+            "tr": "kertenkele"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Hummer",
-            "en": "lobster"
+            "en": "lobster",
+            "es": "langosta",
+            "fr": "homard",
+            "tr": "Istakoz"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Affe",
-            "en": "monkey"
+            "en": "monkey",
+            "es": "mono",
+            "fr": "singe",
+            "tr": "maymun"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Oktopus",
-            "en": "octopus"
+            "en": "octopus",
+            "es": "pulpo",
+            "fr": "pieuvre",
+            "tr": "ahtapot"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Papagei",
-            "en": "parrot"
+            "en": "parrot",
+            "es": "loro",
+            "fr": "perroquet",
+            "tr": "papa\u011fan"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Skorpion",
-            "en": "scorpion"
+            "en": "scorpion",
+            "es": "escorpi\u00f3n",
+            "fr": "Scorpion",
+            "tr": "akrep"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
-            "de": "Möwe",
-            "en": "seagull"
+            "de": "M\u00f6we",
+            "en": "seagull",
+            "es": "gaviota",
+            "fr": "mouette",
+            "tr": "mart\u0131"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Seepferdchen",
-            "en": "seahorse"
+            "en": "seahorse",
+            "es": "caballito de mar",
+            "fr": "hippocampe",
+            "tr": "denizat\u0131"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
-            "de": "Eichhörnchen",
-            "en": "squirrel"
+            "de": "Eichh\u00f6rnchen",
+            "en": "squirrel",
+            "es": "ardilla",
+            "fr": "\u00e9cureuil",
+            "tr": "sincap"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
-            "de": "Schildkröte",
-            "en": "tortoise"
+            "de": "Schildkr\u00f6te",
+            "en": "tortoise",
+            "es": "tortuga",
+            "fr": "tortue",
+            "tr": "kaplumba\u011fa"
         },
         "category": {
             "de": "Tier",
-            "en": "Animals"
+            "en": "Animals",
+            "es": "Animales",
+            "fr": "Animaux",
+            "tr": "Hayvanlar"
         }
     },
     {
         "word": {
             "de": "Asteroid",
-            "en": "asteroid"
+            "en": "asteroid",
+            "es": "asteroide",
+            "fr": "ast\u00e9ro\u00efde",
+            "tr": "asteroit"
         },
         "category": {
             "de": "Astronomie",
-            "en": "astronomy"
+            "en": "astronomy",
+            "es": "astronom\u00eda",
+            "fr": "astronomie",
+            "tr": "astronomi"
         }
     },
     {
         "word": {
             "de": "Wurmloch",
-            "en": "wormhole"
+            "en": "wormhole",
+            "es": "agujero de gusano",
+            "fr": "trou de ver",
+            "tr": "solucan deli\u011fi"
         },
         "category": {
             "de": "Astronomie",
-            "en": "astronomy"
+            "en": "astronomy",
+            "es": "astronom\u00eda",
+            "fr": "astronomie",
+            "tr": "astronomi"
         }
     },
     {
         "word": {
             "de": "Schnuller",
-            "en": "pacifier"
+            "en": "pacifier",
+            "es": "chupete",
+            "fr": "sucette",
+            "tr": "emzik"
         },
         "category": {
             "de": "Baby",
-            "en": "baby"
+            "en": "baby",
+            "es": "beb\u00e9",
+            "fr": "b\u00e9b\u00e9",
+            "tr": "Bebek"
         }
     },
     {
         "word": {
             "de": "Kinderwagen",
-            "en": "stroller"
+            "en": "stroller",
+            "es": "paseante",
+            "fr": "poussette",
+            "tr": "bebek arabas\u0131"
         },
         "category": {
             "de": "Baby",
-            "en": "baby"
+            "en": "baby",
+            "es": "beb\u00e9",
+            "fr": "b\u00e9b\u00e9",
+            "tr": "Bebek"
         }
     },
     {
         "word": {
             "de": "Limonade",
-            "en": "lemonade"
+            "en": "lemonade",
+            "es": "limonada",
+            "fr": "limonade",
+            "tr": "limonata"
         },
         "category": {
-            "de": "Getränk",
-            "en": "beverage"
+            "de": "Getr\u00e4nk",
+            "en": "beverage",
+            "es": "bebida",
+            "fr": "boisson",
+            "tr": "i\u00e7ecek"
         }
     },
     {
         "word": {
             "de": "Facebook",
-            "en": "facebook"
+            "en": "facebook",
+            "es": "Facebook",
+            "fr": "Facebook",
+            "tr": "Facebook'ta"
         },
         "category": {
             "de": "Computing",
-            "en": "computing"
+            "en": "computing",
+            "es": "computaci\u00f3n",
+            "fr": "informatique",
+            "tr": "bilgisayar"
         }
     },
     {
         "word": {
             "de": "Twitter",
-            "en": "twitter"
+            "en": "twitter",
+            "es": "Twitter",
+            "fr": "Twitter",
+            "tr": "twitter"
         },
         "category": {
             "de": "Computing",
-            "en": "computing"
+            "en": "computing",
+            "es": "computaci\u00f3n",
+            "fr": "informatique",
+            "tr": "bilgisayar"
         }
     },
     {
         "word": {
             "de": "Hausaufgaben",
-            "en": "homework"
+            "en": "homework",
+            "es": "tarea",
+            "fr": "devoirs",
+            "tr": "Ev \u00f6devi"
         },
         "category": {
             "de": "Ausbildung",
-            "en": "education"
+            "en": "education",
+            "es": "educaci\u00f3n",
+            "fr": "\u00e9ducation",
+            "tr": "e\u011fitim"
         }
     },
     {
         "word": {
             "de": "Lachen",
-            "en": "laughing"
+            "en": "laughing",
+            "es": "re\u00edr",
+            "fr": "en riant",
+            "tr": "g\u00fclmek"
         },
         "category": {
             "de": "Emotionen",
-            "en": "emotions"
+            "en": "emotions",
+            "es": "emociones",
+            "fr": "\u00e9motions",
+            "tr": "duygular"
         }
     },
     {
         "word": {
             "de": "Geburtstag",
-            "en": "birthday"
+            "en": "birthday",
+            "es": "cumplea\u00f1os",
+            "fr": "anniversaire",
+            "tr": "do\u011fum g\u00fcn\u00fc"
         },
         "category": {
             "de": "Ereignis",
-            "en": "event"
+            "en": "event",
+            "es": "evento",
+            "fr": "\u00e9v\u00e9nement",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Wahl",
-            "en": "election"
+            "en": "election",
+            "es": "elecci\u00f3n",
+            "fr": "\u00e9lection",
+            "tr": "se\u00e7im"
         },
         "category": {
             "de": "Ereignis",
-            "en": "event"
+            "en": "event",
+            "es": "evento",
+            "fr": "\u00e9v\u00e9nement",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Kokosnuss",
-            "en": "coconut"
+            "en": "coconut",
+            "es": "Coco",
+            "fr": "noix de coco",
+            "tr": "Hindistan cevizi"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Kaffee",
-            "en": "coffee"
+            "en": "coffee",
+            "es": "caf\u00e9",
+            "fr": "caf\u00e9",
+            "tr": "Kahve"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Pfannkuchen",
-            "en": "pancakes"
+            "en": "pancakes",
+            "es": "panqueques",
+            "fr": "cr\u00eapes",
+            "tr": "krep"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Popcorn",
-            "en": "popcorn"
+            "en": "popcorn",
+            "es": "Palomitas",
+            "fr": "Popcorn",
+            "tr": "patlam\u0131\u015f m\u0131s\u0131r"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Eis am Stiel",
-            "en": "popsicle"
+            "en": "popsicle",
+            "es": "paleta",
+            "fr": "glace",
+            "tr": "dondurma"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Brezel",
-            "en": "pretzel"
+            "en": "pretzel",
+            "es": "galleta salada",
+            "fr": "bretzel",
+            "tr": "pretzel"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
-            "de": "Kürbis",
-            "en": "pumpkin"
+            "de": "K\u00fcrbis",
+            "en": "pumpkin",
+            "es": "calabaza",
+            "fr": "citrouille",
+            "tr": "kabak"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Sandwich",
-            "en": "sandwich"
+            "en": "sandwich",
+            "es": "s\u00e1ndwich",
+            "fr": "sandwich",
+            "tr": "sandvi\u00e7"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Wurst",
-            "en": "sausage"
+            "en": "sausage",
+            "es": "embutido",
+            "fr": "saucisse",
+            "tr": "sosis"
         },
         "category": {
             "de": "Essen",
-            "en": "Food"
+            "en": "Food",
+            "es": "Alimento",
+            "fr": "Nourriture",
+            "tr": "Yiyecek"
         }
     },
     {
         "word": {
             "de": "Amerika",
-            "en": "america"
+            "en": "america",
+            "es": "Am\u00e9rica",
+            "fr": "Am\u00e9rique",
+            "tr": "Amerika"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "England",
-            "en": "england"
+            "en": "england",
+            "es": "Inglaterra",
+            "fr": "Angleterre",
+            "tr": "\u0130ngiltere"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "Finnland",
-            "en": "finland"
+            "en": "finland",
+            "es": "Finlandia",
+            "fr": "Finlande",
+            "tr": "Finlandiya"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "Deutschland",
-            "en": "germany"
+            "en": "germany",
+            "es": "Alemania",
+            "fr": "Allemagne",
+            "tr": "Almanya"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "Holland",
-            "en": "holland"
+            "en": "holland",
+            "es": "Holanda",
+            "fr": "Hollande",
+            "tr": "hollanda"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "Jamaika",
-            "en": "jamaica"
+            "en": "jamaica",
+            "es": "Jamaica",
+            "fr": "Jama\u00efque",
+            "tr": "Jamaika"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "New York",
-            "en": "newyork"
+            "en": "newyork",
+            "es": "Nueva York",
+            "fr": "New York",
+            "tr": "New York"
         },
         "category": {
             "de": "Geographie",
-            "en": "geography"
+            "en": "geography",
+            "es": "geograf\u00eda",
+            "fr": "g\u00e9ographie",
+            "tr": "co\u011frafya"
         }
     },
     {
         "word": {
             "de": "Berg",
-            "en": "mountain"
+            "en": "mountain",
+            "es": "monta\u00f1a",
+            "fr": "montagne",
+            "tr": "da\u011f"
         },
         "category": {
             "de": "Geologie",
-            "en": "geology"
+            "en": "geology",
+            "es": "geolog\u00eda",
+            "fr": "g\u00e9ologie",
+            "tr": "jeoloji"
         }
     },
     {
         "word": {
             "de": "Vulkan",
-            "en": "volcano"
+            "en": "volcano",
+            "es": "volc\u00e1n",
+            "fr": "volcan",
+            "tr": "yanarda\u011f"
         },
         "category": {
             "de": "Geologie",
-            "en": "geology"
+            "en": "geology",
+            "es": "geolog\u00eda",
+            "fr": "g\u00e9ologie",
+            "tr": "jeoloji"
         }
     },
     {
         "word": {
-            "de": "Künstler",
-            "en": "artist"
+            "de": "K\u00fcnstler",
+            "en": "artist",
+            "es": "artista",
+            "fr": "artiste",
+            "tr": "sanat\u00e7\u0131"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Metzger",
-            "en": "butcher"
+            "en": "butcher",
+            "es": "carnicero",
+            "fr": "Boucher",
+            "tr": "Kasap"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
-            "de": "Kapitän",
-            "en": "captain"
+            "de": "Kapit\u00e4n",
+            "en": "captain",
+            "es": "capit\u00e1n",
+            "fr": "capitaine",
+            "tr": "kaptan"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Kassierer",
-            "en": "cashier"
+            "en": "cashier",
+            "es": "cajero",
+            "fr": "caissier",
+            "tr": "kasiyer"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Zahnarzt",
-            "en": "dentist"
+            "en": "dentist",
+            "es": "dentista",
+            "fr": "dentiste",
+            "tr": "di\u015f\u00e7i"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Arzt",
-            "en": "doctor"
+            "en": "doctor",
+            "es": "doctor",
+            "fr": "m\u00e9decin",
+            "tr": "doktor"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Bauer",
-            "en": "farmer"
+            "en": "farmer",
+            "es": "agricultor",
+            "fr": "fermier",
+            "tr": "\u00e7ift\u00e7i"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
-            "de": "Gärtner",
-            "en": "gardener"
+            "de": "G\u00e4rtner",
+            "en": "gardener",
+            "es": "jardinero",
+            "fr": "jardinier",
+            "tr": "bah\u00e7\u0131van"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
-            "de": "Briefträger",
-            "en": "mailman"
+            "de": "Brieftr\u00e4ger",
+            "en": "mailman",
+            "es": "cartero",
+            "fr": "facteur",
+            "tr": "postac\u0131"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Maler",
-            "en": "painter"
+            "en": "painter",
+            "es": "pintor",
+            "fr": "peintre",
+            "tr": "ressam"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Soldat",
-            "en": "soldier"
+            "en": "soldier",
+            "es": "soldado",
+            "fr": "soldat",
+            "tr": "asker"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Chirurg",
-            "en": "surgeon"
+            "en": "surgeon",
+            "es": "cirujano",
+            "fr": "chirurgien",
+            "tr": "cerrah"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Lehrer",
-            "en": "teacher"
+            "en": "teacher",
+            "es": "maestro",
+            "fr": "professeur",
+            "tr": "\u00d6\u011fretmen"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
             "de": "Kellner",
-            "en": "waitress"
+            "en": "waitress",
+            "es": "camarera",
+            "fr": "serveuse",
+            "tr": "Garson"
         },
         "category": {
             "de": "Beruf",
-            "en": "profession"
+            "en": "profession",
+            "es": "profesi\u00f3n",
+            "fr": "profession",
+            "tr": "meslek"
         }
     },
     {
         "word": {
-            "de": "Bogenschießen",
-            "en": "archery"
+            "de": "Bogenschie\u00dfen",
+            "en": "archery",
+            "es": "tiro al arco",
+            "fr": "tir \u00e0 l'arc",
+            "tr": "ok\u00e7uluk"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Bowling",
-            "en": "bowling"
+            "en": "bowling",
+            "es": "bolos",
+            "fr": "bowling",
+            "tr": "bowling"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Boxen",
-            "en": "boxing"
+            "en": "boxing",
+            "es": "boxeo",
+            "fr": "boxe",
+            "tr": "boks"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Fechten",
-            "en": "fencing"
+            "en": "fencing",
+            "es": "esgrima",
+            "fr": "escrime",
+            "tr": "eskrim"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Angeln",
-            "en": "fishing"
+            "en": "fishing",
+            "es": "pesca",
+            "fr": "p\u00eache",
+            "tr": "bal\u0131k tutma"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
-            "de": "Fußball",
-            "en": "football"
+            "de": "Fu\u00dfball",
+            "en": "football",
+            "es": "f\u00fatbol americano",
+            "fr": "football",
+            "tr": "futbol"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Weitsprung",
-            "en": "longjump"
+            "en": "longjump",
+            "es": "salto de longitud",
+            "fr": "saut en longueur",
+            "tr": "uzun atlama"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Minigolf",
-            "en": "minigolf"
+            "en": "minigolf",
+            "es": "minigolf",
+            "fr": "minigolf",
+            "tr": "mini golf"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Olympia",
-            "en": "olympics"
+            "en": "olympics",
+            "es": "Juegos Ol\u00edmpicos",
+            "fr": "Jeux olympiques",
+            "tr": "olimpiyatlar"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
             "de": "Schwimmen",
-            "en": "swimming"
+            "en": "swimming",
+            "es": "nadar",
+            "fr": "natation",
+            "tr": "y\u00fczme"
         },
         "category": {
             "de": "Sport",
-            "en": "sports"
+            "en": "sports",
+            "es": "deportes",
+            "fr": "sportif",
+            "tr": "spor"
         }
     },
     {
         "word": {
-            "de": "Kettensäge",
-            "en": "chainsaw"
+            "de": "Kettens\u00e4ge",
+            "en": "chainsaw",
+            "es": "motosierra",
+            "fr": "tron\u00e7onneuse",
+            "tr": "motorlu testere"
         },
         "category": {
             "de": "Werkzeug",
-            "en": "tool"
+            "en": "tool",
+            "es": "herramienta",
+            "fr": "outil",
+            "tr": "alet"
         }
     },
     {
         "word": {
             "de": "Brecheisen",
-            "en": "crowbar"
+            "en": "crowbar",
+            "es": "palanca",
+            "fr": "pied de biche",
+            "tr": "kazaya\u011f\u0131"
         },
         "category": {
             "de": "Werkzeug",
-            "en": "tool"
+            "en": "tool",
+            "es": "herramienta",
+            "fr": "outil",
+            "tr": "alet"
         }
     },
     {
         "word": {
             "de": "Schaufel",
-            "en": "dustpan"
+            "en": "dustpan",
+            "es": "recogedor",
+            "fr": "pelle \u00e0 poussi\u00e8re",
+            "tr": "fara\u015f"
         },
         "category": {
             "de": "Werkzeug",
-            "en": "tool"
+            "en": "tool",
+            "es": "herramienta",
+            "fr": "outil",
+            "tr": "alet"
         }
     },
     {
         "word": {
             "de": "Schere",
-            "en": "scissors"
+            "en": "scissors",
+            "es": "tijeras",
+            "fr": "ciseaux",
+            "tr": "makas"
         },
         "category": {
             "de": "Werkzeug",
-            "en": "tool"
+            "en": "tool",
+            "es": "herramienta",
+            "fr": "outil",
+            "tr": "alet"
         }
     },
     {
         "word": {
             "de": "Pinzette",
-            "en": "tweezers"
+            "en": "tweezers",
+            "es": "pinzas",
+            "fr": "pince \u00e0 \u00e9piler",
+            "tr": "c\u0131mb\u0131z"
         },
         "category": {
             "de": "Werkzeug",
-            "en": "tool"
+            "en": "tool",
+            "es": "herramienta",
+            "fr": "outil",
+            "tr": "alet"
         }
     },
     {
         "word": {
             "de": "Schaukel",
-            "en": "swingset"
+            "en": "swingset",
+            "es": "columpio",
+            "fr": "balan\u00e7oire",
+            "tr": "sal\u0131ncak seti"
         },
         "category": {
             "de": "Spielzeug",
-            "en": "toy"
+            "en": "toy",
+            "es": "juguete",
+            "fr": "jouet",
+            "tr": "oyuncak"
         }
     },
     {
         "word": {
             "de": "Flugzeug",
-            "en": "airplane"
+            "en": "airplane",
+            "es": "avi\u00f3n",
+            "fr": "avion",
+            "tr": "u\u00e7ak"
         },
         "category": {
             "de": "Transport",
-            "en": "transportation"
+            "en": "transportation",
+            "es": "transporte",
+            "fr": "transport",
+            "tr": "toplu ta\u015f\u0131ma"
         }
     },
     {
         "word": {
             "de": "Fahrrad",
-            "en": "bicycle"
+            "en": "bicycle",
+            "es": "bicicleta",
+            "fr": "v\u00e9lo",
+            "tr": "bisiklet"
         },
         "category": {
             "de": "Fahrzeug",
-            "en": "vehicle"
+            "en": "vehicle",
+            "es": "veh\u00edculo",
+            "fr": "v\u00e9hicule",
+            "tr": "ara\u00e7"
         }
     },
     {
         "word": {
             "de": "Gabelstapler",
-            "en": "forklift"
+            "en": "forklift",
+            "es": "m\u00e1quina elevadora",
+            "fr": "chariot \u00e9l\u00e9vateur",
+            "tr": "forklift"
         },
         "category": {
             "de": "Fahrzeug",
-            "en": "vehicle"
+            "en": "vehicle",
+            "es": "veh\u00edculo",
+            "fr": "v\u00e9hicule",
+            "tr": "ara\u00e7"
         }
     },
     {
         "word": {
             "de": "Segelboot",
-            "en": "sailboat"
+            "en": "sailboat",
+            "es": "velero",
+            "fr": "voilier",
+            "tr": "yelkenli"
         },
         "category": {
             "de": "Fahrzeug",
-            "en": "vehicle"
+            "en": "vehicle",
+            "es": "veh\u00edculo",
+            "fr": "v\u00e9hicule",
+            "tr": "ara\u00e7"
         }
     },
     {
         "word": {
             "de": "Abschleppwagen",
-            "en": "towtruck"
+            "en": "towtruck",
+            "es": "cami\u00f3n de remolque",
+            "fr": "d\u00e9panneuse",
+            "tr": "\u00e7ekici"
         },
         "category": {
             "de": "Fahrzeug",
-            "en": "vehicle"
+            "en": "vehicle",
+            "es": "veh\u00edculo",
+            "fr": "v\u00e9hicule",
+            "tr": "ara\u00e7"
         }
     },
     {
         "word": {
             "de": "Traktor",
-            "en": "tractor"
+            "en": "tractor",
+            "es": "tractor",
+            "fr": "tracteur",
+            "tr": "trakt\u00f6r"
         },
         "category": {
             "de": "Fahrzeug",
-            "en": "vehicle"
+            "en": "vehicle",
+            "es": "veh\u00edculo",
+            "fr": "v\u00e9hicule",
+            "tr": "ara\u00e7"
         }
     },
     {
         "word": {
             "de": "Schneesturm",
-            "en": "blizzard"
+            "en": "blizzard",
+            "es": "ventisca",
+            "fr": "blizzard",
+            "tr": "tipi"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     },
     {
         "word": {
             "de": "Tornado",
-            "en": "tornado"
+            "en": "tornado",
+            "es": "tornado",
+            "fr": "tornade",
+            "tr": "kas\u0131rga"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     },
     {
         "word": {
             "de": "Schwimmen",
-            "en": "swimming"
+            "en": "swimming",
+            "es": "nadar",
+            "fr": "natation",
+            "tr": "y\u00fczme"
         },
         "category": {
-            "de": "Aktivität",
-            "en": "activity"
+            "de": "Aktivit\u00e4t",
+            "en": "activity",
+            "es": "actividad",
+            "fr": "activit\u00e9",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Wandern",
-            "en": "hiking"
+            "en": "hiking",
+            "es": "senderismo",
+            "fr": "randonn\u00e9e",
+            "tr": "do\u011fa y\u00fcr\u00fcy\u00fc\u015f\u00fc"
         },
         "category": {
-            "de": "Aktivität",
-            "en": "activity"
+            "de": "Aktivit\u00e4t",
+            "en": "activity",
+            "es": "actividad",
+            "fr": "activit\u00e9",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Tanzen",
-            "en": "dancing"
+            "en": "dancing",
+            "es": "baile",
+            "fr": "dansant",
+            "tr": "dans"
         },
         "category": {
-            "de": "Aktivität",
-            "en": "activity"
+            "de": "Aktivit\u00e4t",
+            "en": "activity",
+            "es": "actividad",
+            "fr": "activit\u00e9",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Lesen",
-            "en": "reading"
+            "en": "reading",
+            "es": "lectura",
+            "fr": "en lisant",
+            "tr": "okuma"
         },
         "category": {
-            "de": "Aktivität",
-            "en": "activity"
+            "de": "Aktivit\u00e4t",
+            "en": "activity",
+            "es": "actividad",
+            "fr": "activit\u00e9",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
             "de": "Klettern",
-            "en": "climbing"
+            "en": "climbing",
+            "es": "escalada",
+            "fr": "escalade",
+            "tr": "t\u0131rmanma"
         },
         "category": {
-            "de": "Aktivität",
-            "en": "activity"
+            "de": "Aktivit\u00e4t",
+            "en": "activity",
+            "es": "actividad",
+            "fr": "activit\u00e9",
+            "tr": "etkinlik"
         }
     },
     {
         "word": {
-            "de": "Bauklötze",
-            "en": "building blocks"
+            "de": "Baukl\u00f6tze",
+            "en": "building blocks",
+            "es": "bloques de construcci\u00f3n",
+            "fr": "blocs de construction",
+            "tr": "yap\u0131 ta\u015flar\u0131"
         },
         "category": {
             "de": "Spielzeug",
-            "en": "toy"
+            "en": "toy",
+            "es": "juguete",
+            "fr": "jouet",
+            "tr": "oyuncak"
         }
     },
     {
         "word": {
             "de": "Kuscheltier",
-            "en": "stuffed Animals"
+            "en": "stuffed Animals",
+            "es": "animales rellenos",
+            "fr": "peluches",
+            "tr": "pel\u00fc\u015f hayvanlar"
         },
         "category": {
             "de": "Spielzeug",
-            "en": "toy"
+            "en": "toy",
+            "es": "juguete",
+            "fr": "jouet",
+            "tr": "oyuncak"
         }
     },
     {
         "word": {
             "de": "Regen",
-            "en": "rain"
+            "en": "rain",
+            "es": "lluvia",
+            "fr": "pluie",
+            "tr": "ya\u011fmur"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     },
     {
         "word": {
             "de": "Sonnenschein",
-            "en": "sunshine"
+            "en": "sunshine",
+            "es": "luz solar",
+            "fr": "soleil",
+            "tr": "g\u00fcne\u015f \u0131\u015f\u0131\u011f\u0131"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     },
     {
         "word": {
             "de": "Schnee",
-            "en": "snow"
+            "en": "snow",
+            "es": "nieve",
+            "fr": "neige",
+            "tr": "kar"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     },
     {
         "word": {
             "de": "Wind",
-            "en": "wind"
+            "en": "wind",
+            "es": "viento",
+            "fr": "vent",
+            "tr": "r\u00fczg\u00e2r"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     },
     {
         "word": {
             "de": "Nebel",
-            "en": "fog"
+            "en": "fog",
+            "es": "niebla",
+            "fr": "brouillard",
+            "tr": "sis"
         },
         "category": {
             "de": "Wetter",
-            "en": "weather"
+            "en": "weather",
+            "es": "clima",
+            "fr": "m\u00e9t\u00e9o",
+            "tr": "hava durumu"
         }
     }
 ]
