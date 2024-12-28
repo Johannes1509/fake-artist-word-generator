@@ -75,7 +75,10 @@ $("#generateGame").on("click", function () {
 
 $("#showWord").on("click", function () {
     if ($(this).text() === i18n.messageStore.get("de", "game-show-word")
-        || $(this).text() === i18n.messageStore.get("en", "game-show-word")) {
+        || $(this).text() === i18n.messageStore.get("en", "game-show-word")
+        || $(this).text() === i18n.messageStore.get("es", "game-show-word")
+        || $(this).text() === i18n.messageStore.get("fr", "game-show-word")
+        || $(this).text() === i18n.messageStore.get("tr", "game-show-word")) {
         $("#next-player").hide();
         $("#word").removeClass("text-bg-danger");
         $("#word").addClass("text-bg-light");
