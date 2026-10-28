@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
-    <meta http-equiv="Content-Language" content="en,de,es,fr,tr">
+    <meta http-equiv="Content-Language" content="en,de,es,fr,sv,tr,pl">
     <meta name="description"
         content='A fake artist goes to New York word generator. A companion app that replaces the game master - free, more than 200 unique words, no ads!'>
     <meta name="robots" content="index, follow">
@@ -31,7 +31,7 @@
         charset="UTF-8"></script>
     <script type="text/javascript" charset="UTF-8">
         document.addEventListener('DOMContentLoaded', function () {
-            cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": "en", "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "Fake Artist word generator" });
+            cookieconsent.run({ "notice_banner_type": "simple", "consent_type": "express", "palette": "dark", "language": lang, "page_load_consent_levels": ["strictly-necessary"], "notice_banner_reject_button_hide": false, "preferences_center_close_button_hide": false, "page_refresh_confirmation_buttons": false, "website_name": "Fake Artist word generator" });
         });
     </script>
 
@@ -53,20 +53,21 @@
     <div class="m-1 mb-0 ms-auto me-auto text-center align-items-center mt-0 bg-white rounded-bottom">
         <div class="m-0 my-2 row">
             <div class="col-2">
-                <button data-bs-toggle="modal" data-bs-target="#infoModal" class="btn bg-white mt-0 p-1"><img src="icons/icons8-info-144.png" width="32" height="32"/></button>
+                <button data-bs-toggle="modal" data-bs-target="#infoModal" class="btn bg-white mt-0 p-1" data-i18n="[aria-label]info-modal-title" aria-label="About the app"><img src="icons/icons8-info-144.png" width="32" height="32"/></button>
             </div>
             <div class="col-6">
                 <h5 class="mb-0" data-i18n="app-title">Word generator for "A fake artist goes to New York"</h5>
             </div>
             <div class="col-4">
                 <div class="ms-auto me-auto mb-2">
-                    <select class="form-select form-control-sm" id="language">
+                    <select class="form-select form-control-sm" id="language" data-i18n="[aria-label]language-select" aria-label="Language">
                         <option value="en" selected>EN</option>
                         <option value="de">DE</option>
                         <option value="es">ES</option>
                         <option value="fr">FR</option>
                         <option value="sv">SV</option>
                         <option value="tr">TR</option>
+                        <option value="pl">PL</option>
                     </select>
                 </div>
             </div>
@@ -127,7 +128,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="infoModalLabel" data-i18n="info-modal-title">About the app</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" data-i18n="[aria-label]info-modal-close" aria-label="Close"></button>
         </div>
         <div class="modal-body">
             <h3 data-i18n="info-modal-howto-title">How to use?</h3>
